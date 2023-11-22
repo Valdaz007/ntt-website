@@ -14,8 +14,15 @@
         <div class="header-wrapper">
             <img src="./img/nexttowntech-logo.gif" alt="">
 
+            <!-- Mobile View Toggle Button -->
+            <button class="btn-nav-toggle" 
+                    aria-controls="primary-nav"
+                    aria-expanded="false">
+            </button>
+
+            <!-- Primary Navigation -->
             <nav>
-                <ul class="primary-nav">
+                <ul id="primary-nav" class="primary-nav" data-visible="false">
                     <li>
                         <a href="#">HOME</a>
                     </li>
@@ -35,5 +42,7 @@
             </nav>
         </div>
     </header>
+
+    <script src="./script.js"></script>
 </body>
 </html>
