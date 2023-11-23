@@ -29,6 +29,10 @@
     min-width: 100%;
     position: absolute;
 
+    backdrop-filter: blur(5rem);
+
+    transform: translateY(15%);
+    object-fit: cover;
     z-index: -1;
 }
 
