@@ -14,7 +14,6 @@ body {
 
 main {
     width: clamp(250px, 95%, 1000px);
-    border: 1px solid orangered;
 }
 
 h1 {
@@ -31,21 +30,32 @@ h1 {
 
 .service {
     display: flex;
-    border: 1px solid blue;
+    align-items: center;
+
+    background-color: hsla(350, 80%, 50%, 0.75);
+    backdrop-filter: blur(2rem);
+    border-radius: 15px;
+    padding: 10px;
+
+    box-shadow: -1px -1px 0px 5px rgba(59, 204, 149, 0.986) inset, 1px 1px 5px 1px black;
 }
 
 .service img {
-    width: clamp(110px, 30%, 200px);
+    width: clamp(75px, 20%, 100px);
+    height: 95%;
+    aspect-ratio: 1;
 }
 
 .service-card-content {
     display: flex;
     flex-direction: column;
+    height: 95%;
     padding: 10px;
 
     align-items: start;
     justify-content: center;
-    border: 1px solid black;
+
+    color: white;
 }
 
 .service-card-content h3 {
@@ -67,6 +77,10 @@ h1 {
 @media(min-width: 1024px) {
     .services {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .service img {
+        height: 90%;
     }
 }
 
