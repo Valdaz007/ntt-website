@@ -67,9 +67,13 @@ h1 {
     margin-top: 5px;
 }
 
-@media(min-width: 682px) {
+@media(min-width: 642px) {
     .services {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .service {
+        flex-direction: column;
     }
 }
 
