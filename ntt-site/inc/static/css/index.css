@@ -78,7 +78,7 @@ header {
     }
 
     .primary-nav {
-        background: hsl(0 0% 0% / 0.3);
+        background: hsl(0 0% 0% / 0.5);
         backdrop-filter: blur(2px);
         position: fixed;
         inset: 0 0 0 100%;
@@ -97,7 +97,7 @@ header {
 .hero {
     display: none;
 
-    height: clamp(250px, 50vw, 500px);
+    height: clamp(300px, 45vw, 450px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,16 +116,95 @@ header {
     color: white;
 }
 
-.hero video {
-    min-height: 100%;
-    min-width: 100%;
+.hero img {
+    height: 100%;
+    width: 100%;
     position: absolute;
 
     backdrop-filter: blur(5rem);
+    opacity: .5;
 
-    transform: translateY(15%);
-    object-fit: cover;
     z-index: -1;
+}
+
+/* OUR SERVICES */
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+main h1 {
+    margin-bottom: 8px;
+    font-size: 2rem;
+}
+
+.services {
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+
+    backdrop-filter: blur(2rem);
+    border-radius: 15px;
+    padding: 10px;
+
+    box-shadow: -1px -1px 0px 5px rgba(59, 204, 149, 0.986) inset, 1px 1px 5px 1px black;
+
+    z-index: -1;
+}
+
+.service img {
+    width: clamp(75px, 20%, 100px);
+    height: 95%;
+    aspect-ratio: 1;
+}
+
+.service-card-content {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    padding: 10px;
+
+    align-items: start;
+    justify-content: center;
+
+    color: lightsalmon;
+}
+
+.service-card-content h3 {
+    font-size: clamp(.8rem, 5vw, 1.5rem);
+}
+
+.service-card-content p {
+    
+    font-size: clamp(.6rem, 5vw, 1rem);
+    margin-top: 5px;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media(min-width: 642px) {
+    .services {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service {
+        flex-direction: column;
+    }
+
+    .service-card-content {
+        align-items: center;
+        text-align: center;
+    }
 }
 
 @media(min-width: 768px) {
@@ -143,6 +222,18 @@ header {
     
     .hero-wrapper {
         width: 1000px;
+    }
+
+    main {
+        width: clamp(500px, 80%, 900px);
+    }
+
+    .services {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .service img {
+        height: 90%;
     }
 }
 
