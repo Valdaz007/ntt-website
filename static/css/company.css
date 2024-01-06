@@ -1,0 +1,375 @@
+/*** Body *********************************************/
+* {
+    box-sizing: border-box;
+}
+
+body .content{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*** Hero *********************************************/
+.hero {
+    height: clamp(300px, 40vw, 500px);
+
+    filter: brightness(.9);
+    background-image: url("../img/comp/comp-bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 0px 0px 7px #0f4c81 inset;
+    border-radius: 0px 0px 15px 15px;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../img/comp/smiley-greg.png");
+    background-repeat: no-repeat;
+    background-size: clamp(450px, 75vw, 750px);
+    background-blend-mode:darken;
+    background-position: bottom;
+
+    position: absolute;
+}
+
+.hero-head {
+    margin-top: 30px;
+
+    color:black;
+    font-size: clamp(1.2em, 5vw, 2.2rem);
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+/*** We Are Here For You - Section #3 ****************************/
+.wahfy-wrapper {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 5px;
+    
+    /* background-color: #0f4c81; */
+    background-color: rgba(30, 143, 255, 0.75);
+
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.wahfy {
+    margin: 0 auto;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 30px;
+}
+
+.wahfy-img {
+    background-color: orange;
+    background-image: url('./../img/benny-flag0.jpg');
+    background-size: cover;
+    background-position: center;
+
+    aspect-ratio: 1 / 1;
+    
+    width: clamp(180px, 60%, 300px);
+
+    border: 5px solid dodgerblue;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px black;
+}
+
+.wahfy-content {
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.wahfy-content p {
+    font-size: clamp(.8rem, 4vw, 1rem);
+}
+
+
+/*** Purpose & Mission *******************************************/
+.pnm {
+    display: grid;
+    min-height: 200px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.pnm-content {
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 2px black;
+}
+
+.pnm-img {
+    height: 35%;
+    background-color: rgb(255, 142, 101);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pnm-content:nth-child(1) .pnm-img {
+    background-image: url('./../img/comp/purpose-icon.png');
+    background-size: contain;
+}
+
+.pnm-content:nth-child(2) .pnm-img {
+    background-image: url('./../img/comp/mission-icon.png');
+    background-size: contain;
+}
+
+.pnm-body {
+    height: 65%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.116);
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.pnm-body p {
+    font-size: clamp(.8rem, 4vw, 1rem);
+}
+
+
+/*** Why We Do It - Section #4 ***********************************/   
+.wwdi-wrapper {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(30, 143, 255, 0.75);
+    display: grid;
+    overflow: hidden;
+}
+
+.wwdi {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wwdi:nth-child(1) {
+    height: clamp(200px, 75vw, 400px);
+    background-color: transparent;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cir1 {
+    background-image: url('./../img/comp/ntt-ofc-installation.png');
+    background-position: top;
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 60%;
+    max-width: 220px;
+    border: 5px solid dodgerblue;
+    box-shadow: 3px 3px 5px black inset, 3px 3px 5px black;
+    border-radius: 50%;
+
+    position: absolute;
+    transform: translate(-40px,-10px);
+}
+
+.cir2 {
+    background-image: url('./../img/comp/wwdi-fiber-splice.jpg');
+    background-position: center;
+    background-size: 100%;
+    
+    aspect-ratio: 1 / 1;
+    width: 35%;
+    max-width: 100px;
+    border: 5px solid rgb(255, 142, 101);
+    box-shadow: 3px 3px 5px black inset, 3px 3px 5px black;
+    border-radius: 50%;
+
+    position: absolute;
+    transform: translate(75px,60px);
+}
+
+.cir3 {
+    background-color: orange;
+    aspect-ratio: 1 / 1;
+    max-width: 350px;
+    width: 10%;
+    border: 10px solid lemonchiffon;
+    box-shadow: 3px 3px 5px black inset, 3px 3px 5px black;
+    border-radius: 50%;
+
+    position: absolute;
+    transform: translate(-150px,-150px);
+}
+
+.cir4 {
+    aspect-ratio: 1 / 1;
+    max-width: 130px;
+    width: 15%;
+    border-radius: 50%;
+    border: 20px solid rgb(255, 142, 101);
+    box-shadow: 3px 3px 5px black inset, 3px 3px 5px black;
+
+    position: absolute;
+    transform: translate(110px,-110px);
+}
+
+.wwdi:nth-child(2) {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.wwdi-content {
+    color: lemonchiffon;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.wwdi-content p {
+    font-size: clamp(.8rem, 3vw, 1rem);
+}
+
+/*** Values - Section #5 *****************************************/
+.value {
+    height: 100%;
+    padding: 10px;
+
+    text-align: center;
+    color: white;
+
+    background-color: rgb(255, 142, 101);
+    box-shadow: 3px 3px 5px #000;
+}
+
+.value p {
+    font-size: clamp(.8rem, 4vw, 1rem);
+}
+
+
+/*** Img Scroller *************************************************/
+.scroller {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.scroller[data-animated=true] {
+    overflow: hidden;
+
+    -webkit-mask: linear-gradient(
+        90deg,
+        transparent, 
+        white 3%, 
+        white 97%,
+        transparent
+    );
+    
+    mask: linear-gradient(
+        90deg,
+        transparent, 
+        white 5%, 
+        white 95%,
+        transparent
+    );
+}
+
+.scroller[data-animated=true] .scroller-inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 30s linear infinite;
+}
+
+.scroller-inner {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding-inline: 0rem;
+    list-style: none;
+
+    
+    padding-block: 1rem;
+    gap: 1rem;
+}
+
+.scroller-inner img {
+    width: clamp(100px, 15vw, 250px);
+    padding: .5rem;
+    background-color: dodgerblue;
+    box-shadow: 0 0.5rem 1rem -.25rem rgb(30, 29, 29);
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - .5rem));
+    }
+}
+
+
+/*** Media Queries ***********************************************/
+@media(min-width: 426px) {
+
+    .pnm-content {
+        margin: 10px;
+    }
+
+    .pnm-img {
+        height: 45%;
+    }
+
+    .pnm-body {
+        height: 55%;
+
+        align-items: center;
+    }
+}
+
+@media(min-width: 769px) {
+    .wahfy {
+        flex-direction: row;
+    }
+
+    .pnm-content {
+        margin: 30px;
+    }
+
+    .wwdi-wrapper {
+        grid-template-columns: .8fr 1fr;
+    }
+
+    .wwdi:nth-child(1) {
+        height: 100%;
+    }
+}

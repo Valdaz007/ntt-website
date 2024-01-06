@@ -1,0 +1,159 @@
+/*** EMAIL PACKAGES  ***************************************/
+
+.mails {
+    width: 100%;
+    padding: 0;
+}
+
+.mail-sect h2 img {
+    height: 40px;
+    transform: translateY(-7px);
+
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+.mail {
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(113, 189, 255);
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.std-mail {
+    background-image: url("../../img/email-plans/mail-bg3.png");
+    background-color: rgba(255, 174, 0, 0.712);
+    height: 40%;
+
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    box-shadow: 0 0 10px tomato inset;
+    border-radius: 5px;
+
+    position:relative;
+}
+
+.std-mail::before {
+    content: "";
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(0, 255, 149, 0.7);
+    background-image: url("../../img/email-plans/mail-std3-redish.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.enterp-mail {
+    background-image: url("../../img/email-plans/mail-bg3.png");
+    height: 250px;
+
+    box-shadow: 0 0 10px orchid inset;
+
+    background-size: 90%;
+    background-position: center;
+
+    border-radius: 5px;
+
+    position:relative;
+}
+
+.enterp-mail::before {
+    content: "";
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(255, 174, 0, 0.7);
+    background-image: url("../../img/email-plans/mail-enterp3-blue.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mail-features {
+    padding: 5px;
+}
+
+.mail-features ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.mail-features ul li {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+/*** WEB PACKAGE *****************************************************/
+
+.web-sect {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.web-sect h2 {
+    align-self: start;
+}
+
+.web-sect h2 img {
+    height: 45px;
+    transform: translateY(-5px);
+
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+.web-wrapper {
+    width: 100%;
+
+    border-radius: 3px;
+    text-align: center;
+
+    background-image: url("../../img/email-plans/mail-bg2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.web-wrapper img {
+    width: 50%;
+}
+
+.web-wrapper h2 {
+    color: royalblue;
+    width: 95%;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: clamp(25px, 3vw, 40px);
+}
+
+.webtype .web-card {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+.webtype .card img {
+    height: 150px;
+    width: 100%;
+}
+
+.web-body h5 {
+    text-align: center;
+    font-size: 1rem;
+}

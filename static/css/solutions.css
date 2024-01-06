@@ -1,0 +1,281 @@
+/*** Hero Section **********************************************************/
+
+.hero {
+    height: 75vh;
+
+    box-shadow: 0px 0px 7px #0f4c81 inset;
+    border-radius: 0px 0px 20px 20px;
+
+    overflow: hidden;
+}
+
+.hero-rel {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.inner-hero-rel:nth-child(1) {
+    height: 100%;
+
+    background-image: url("../img/hero-img/soluntions-hero02.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+}
+
+.inner-hero-rel:nth-child(2) {
+    height: 100%;
+
+    background-image: url("../img/hero-img/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    height: 100%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-hero-rel .title {
+    font-size: clamp(1.2rem, 5vw, 2.2rem);
+    text-align: center;
+    color: #ed656300;
+    text-align: center;
+    -webkit-text-stroke: 0.1rem #ff9900;
+}
+
+.inner-hero-rel .sub-title {
+    font-size: clamp(1.2rem, 3vw, 1.7rem);
+    font-weight: 700;
+    color: #ff9900;
+    text-align: center;
+}
+
+/*** Content Section **********************************************************/
+
+.content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services h2 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.services h2 img {
+    height: 60px;
+
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+
+/*** Service Cards *******************************************/
+.services .micard {
+    height: 100%;
+    color: rgb(0, 23, 43);
+    box-shadow: 2px 2px 2px #0f4c81, -2px -2px 2px #0f4c81;
+    overflow: hidden;
+}
+
+.micard-body {
+
+    font-weight: 450;
+    word-spacing: 1px;
+    justify-content: center;
+}
+
+.micard-img {
+    width: 100%;
+    height: 200px;
+
+    background-image: url("../img/broad-img3.1 - 300x300.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    box-shadow: 0 0 10px rgba(0, 136, 255, 0.5);
+    overflow: hidden;
+}
+
+
+/*** Cloud Services *******************************************/
+#cloud .micard {
+    background-color: #71c8d592;
+}
+
+.mc1-1 .micard-img {
+    background-image: url("../img/soln/cloudshosting.png");
+    background-size: contain;
+}
+
+.mc1-2 .micard-img {
+    background-image: url("../img/soln/application.png");
+    background-size: contain;
+}
+
+.mc1-3 .micard-img {
+    background-image: url("../img/soln/virtualization.png");
+    background-size: contain;
+}
+
+
+/*** NETWORK SERVICES ******************************************/
+#netw .micard {
+    background-color: rgba(255, 137, 90, 0.25);
+}
+
+.mc2-1 .micard-img {
+    background-image: url("../img/soln/soln-procure.jpg");
+    background-blend-mode: multiply;
+}
+
+.mc2-2 .micard-img {
+    background-image: url("../img/soln/prof-image2.jpg");
+    background-blend-mode: multiply;
+}
+
+.mc2-3 .micard-img {
+    background-image: url("../img/soln/sw&rrt.jpg");
+    background-blend-mode: multiply;
+}
+
+.mc2-4 .micard-img {
+    background-image: url("../img/soln/netmng.jpg");
+    background-blend-mode: multiply;
+    background-position: bottom;
+}
+
+/*** PROCURE SERVICES ******************************************/
+
+#procure .micard {
+    background-color: rgba(250, 135, 198, 0.5);
+}
+
+.mc3-1 .micard-img {
+    background-image: url("../img/soln/procurement3.png");
+    background-size: contain;
+}
+
+.mc3-2 .micard-img {
+    background-image: url("../img/soln/computer-lab.jpg");
+    background-size: contain;
+}
+
+.mc3-3 .micard-img {
+    background-image: url("../img/soln/software-soln.png");
+    background-size: contain;
+}
+
+.mc3-4 .micard-img {
+    background-image: url("../img/soln/tower.png");
+    background-size: contain;
+}
+
+
+
+/*** Side Bar Section *********************************************************/
+
+.side-navbar {
+    padding: 10px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enquire-form {
+    width: 95%;
+    margin: 0 auto;
+
+    padding: 10px;
+
+    background-color: #ff9900;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.side-navbar #top {
+    width: 50px;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: #ff9900;
+    box-shadow: 4px 4px 6px #000;
+}
+
+.soln-input {
+    margin-top: 10px;
+}
+
+
+
+@media (max-width: 991.98px) {
+
+    /*** Hero Section **********************************************************/
+    .hero {
+        height: 65vh;
+    }
+
+    .inner-hero-rel:nth-child(1) {
+        background-size: 120%;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 767.98px){
+    
+    .inner-hero-rel:nth-child(1) {
+        background-color: #0f325270;
+        background-blend-mode: multiply;
+        background-size: cover;
+    } 
+    
+    .inner-hero-rel:nth-child(2) {
+        background-image: none;
+    }
+
+    .hero-content {
+        height: 100%;
+        padding: 10px;
+        position: relative;
+        bottom: 75%;
+    }
+
+    .inner-hero-rel .title {
+        text-align: center;
+        color: white;
+        text-align: center;
+        -webkit-text-stroke: 0rem #ff9900;
+    }
+    
+    .inner-hero-rel .sub-title {
+        font-weight: 700;
+        color: #b3ff00;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    /*** Hero Section **********************************************************/
+    .hero {
+        height: 50vh;
+    }
+}

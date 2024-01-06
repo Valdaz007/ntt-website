@@ -1,0 +1,230 @@
+/*** Hero Section *************************************************************/
+.hero {
+    width: 100%;
+    height: clamp(100px,75vw,420px);
+
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url('../img/hero-img/vsat-paranoma.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:multiply;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-inner {
+    max-width: 1000px;
+    width: 80%;
+    height: 90%;
+}
+
+.hero-heading {
+    padding-top: 10px;
+    color: white;
+    font-size: clamp(1rem, 4vw, 2.5rem);
+    text-align: center;
+}
+
+.hero-subheading {
+    padding-bottom: 10px;
+    color: white;
+    font-size: clamp(.8rem, 2vw, 1.5rem);
+    text-align: center;
+}
+
+/*** Content Section **********************************/
+.index-content {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*** Card Service <Section> **************************/
+.services-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8rem;
+}
+
+.services-heading {
+    text-align: center;
+}
+
+.card-body {
+    padding: 10px 5px 10px 5px;
+}
+
+.card-text {
+    font-size: .8rem;
+}
+
+.service-card {
+    box-shadow: 0px 0px 5px 1px var(--nttorange);
+}
+
+.service-card img {
+    height: 150px;
+}
+
+
+/*** Solution <Section> **************************/
+.solution {
+    min-height: 90vh;
+}
+
+.soln-heading {
+    text-align: center;
+}
+
+.solution-services {
+    min-height: 90vh;
+}
+
+.soln .card img {
+    height: 130px;
+    width: 100%;
+}
+
+.soln-body {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.soln-body h5 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.soln-body a {
+    color: blue;
+}
+
+/*** Brief Info Section *********************************************/
+
+.br-info {
+    background-color: var(--nttorange);
+    min-height: 40vh;
+    margin: 0 auto;
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+.info-img-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.img-info {
+    height: clamp(200px, 30vw, 400px);
+    width: 100%;
+    background-image: url("../img/optical-fiber-installation.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.br-info .content-info {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+
+    color: rgb(0, 48, 102);
+    font-weight: 400;
+}
+
+.info-para {
+    font-size: .8rem;
+}
+
+/*** Clients Section *****************************************************/
+
+.clients-heading {
+    text-align: center;
+}
+
+.scroller {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.scroller[data-animated=true] {
+    overflow: hidden;
+
+    -webkit-mask: linear-gradient(
+        90deg,
+        transparent, 
+        white 15%, 
+        white 85%,
+        transparent
+    );
+    
+    mask: linear-gradient(
+        90deg,
+        transparent, 
+        white 15%, 
+        white 85%,
+        transparent
+    );
+}
+
+.scroller[data-animated=true] .scroller-inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 30s linear infinite;
+}
+
+.scroller-inner {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+
+    
+    padding-block: 1rem;
+    gap: 1rem;
+}
+
+.scroller-inner img {
+    width: clamp(85px, 15vw, 175px);
+    padding: 1rem;
+    background-color: blanchedalmond;
+    box-shadow: 0 0.5rem 1rem -.25rem rgb(30, 29, 29);
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - .5rem));
+    }
+}
+
+@media(min-width: 426px) {
+
+    .index-content {
+        width: 85%;
+    }
+
+    .services-cont {
+        padding: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width: 768px) {
+    .services-cont {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .index-content {
+        max-width: 900px;
+    }
+}

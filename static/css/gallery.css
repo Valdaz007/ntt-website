@@ -1,0 +1,28 @@
+/***  Main Content  ***********************************************/
+
+
+.pjx-content {
+    max-width: 1000px;
+}
+
+.pjx {
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px darkcyan inset, -3px -3px 3px darkcyan inset;
+}
+
+.pjx-img img {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pjx-body {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.pjx-btn {
+    width: fit-content;
+}

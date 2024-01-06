@@ -1,0 +1,239 @@
+
+
+/*** Direct Optical Fiber Section ***********************/
+.dof h2 {
+    display: flex;
+    align-items: center;
+}
+
+.dof h2 img {
+    height: 60px;
+
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+.dof-plans {
+    display: flex;
+    align-items: center;
+}
+
+.dof-plan {
+    text-align: center;
+    width: 100%;
+    min-height: 250px;
+    color: #fff;
+
+    -webkit-text-stroke:1px #0066ff;
+    text-shadow:0 0 10px #0066ff;
+
+    box-shadow: 5px 5px 5px #ff9900, -1px -1px 1px #ccc;
+    background-color: #fff;
+    border-radius: 0 35px;
+
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dof-plan::before {
+    content:"";
+    background-image:conic-gradient(
+        #0066ff 20deg, 
+        transparent 120deg
+    );
+    width: 200%;
+    height: 160%;
+
+    position: absolute;
+    animation: rotate 8s linear infinite;
+}
+
+.dof-10::before {
+    background-image:conic-gradient(
+        rgb(78, 230, 78) 20deg, 
+        transparent 120deg
+    );
+}
+
+.dof-50::before {
+    background-image:conic-gradient(
+        #ffff11 20deg, 
+        transparent 120deg
+    );
+}
+
+.dof-plan:hover::before {
+    background-image:conic-gradient(
+        #ff0052 20deg, 
+        transparent 120deg
+    );
+    
+    animation: rotate 2s linear reverse infinite;
+}
+
+.dof-plan::after {
+    content:"";
+    width: 90%;
+    height: 90%;
+    background-color: #ffc;
+    background-image: url("../../img/data-plans/dof-20.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 10px;
+
+    box-shadow: inset 10px 10px 10px var(--nttorange);
+    border-radius: 0 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+}
+
+.dof-10::after {
+    background-image: url("../../img/data-plans/dof-10.png");
+}
+
+.dof-50::after {
+    background-image: url("../../img/data-plans/dof-50.png");
+}
+
+.dof-plan h5 {
+    font-weight: 700;
+}
+
+.dof h5 {
+    width: 80%;
+    margin: 0 auto;
+    color: #1B262C;
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+
+/*** Next Broadband Internet ****************************/
+.next h2 {
+    display: flex;
+    align-items: center;
+}
+
+.next h2 img {
+    width: 60px;
+
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+.next .d-plans img {
+    width: 100%;
+}
+
+.next .d-plans .gpon {
+    min-height: 200px;
+    min-width: 200px;
+
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 5px 5px 5px black;
+}
+
+.gpon::before {
+    height: 250%;
+    width: 250%;
+    content:"";
+    background-image: url("../../img/data-plans/gpon/gpon-bg-icon.png");
+    background-color: #0072d6;
+    background-size: contain;
+    background-position: center;
+
+    position: absolute;
+
+    animation: rotate 60s linear infinite;
+    border: 1px solid black;
+}
+
+.gpon::after {
+    content:"";
+    width: 95%;
+    height: 95%;
+    background-blend-mode: color;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    transition: 1s;
+}
+
+.gpon:hover::after {
+    transform: scale(1.1);
+}
+
+.next .d-plans .col-6:hover::before {
+    animation: rotate 4s linear infinite reverse;
+}
+
+.next .d-plans .col-6:nth-child(1) .gpon::after {
+    background-image: url("../../img/data-plans/gpon/gpon1.2.png");
+}
+
+.next .d-plans .col-6:nth-child(2) .gpon::after {
+    background-image: url("../../img/data-plans/gpon/gpon2.2.png");
+}
+
+.next .d-plans .col-6:nth-child(3) .gpon::after {
+    background-image: url("../../img/data-plans/gpon/gpon3.2.png");
+}
+
+.next .d-plans .col-6:nth-child(4) .gpon::after {
+    background-image: url("../../img/data-plans/gpon/gpon4.2.png");
+}
+
+.next .d-plans .col-6:nth-child(5) .gpon::after {
+    background-image: url("../../img/data-plans/gpon/gpon5.2.png");
+}
+
+.next .d-plans .col-6:nth-child(6) .gpon::after {
+    background-image: url("../../img/data-plans/gpon/gpon10.2.png");
+}
+
+.next h5 {
+    margin: 10px 20px 10px 20px;
+    font-size: clamp(1rem, 2vw,1.2rem);
+    color: #1B262C;
+    text-align: center;
+}
+
+
+/*** VSAT Broadband Internet ***************************/
+.vsat h2 {
+    display: flex;
+    align-items: center;
+}
+
+.vsat h2 img {
+    width: 60px;
+
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+.vsat h5 {
+    margin: 0 auto;
+    font-size: clamp(1rem, 2vw,1.2rem);
+    color: #1B262C;
+    text-align: center;
+}
