@@ -44,7 +44,9 @@
                         </div>
             
                         <div class="service-card">
-                            <img src="./static/img/service-img//manage-image1.1 - 300x300.jpg" class="card-img-top" alt="Network Management">
+                            <div class="card-front">
+                                <img src="./static/img/service-img//manage-image1.1 - 300x300.jpg" class="card-img-top" alt="Network Management">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Managed</h5>
                                 <p class="card-text">Let us manage your Network Infrastructure giving you more time to focus on your business goals.</p>

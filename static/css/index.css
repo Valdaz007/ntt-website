@@ -42,14 +42,15 @@
 }
 
 /*** Card Service <Section> **************************/
+
+.services-heading {
+    text-align: center;
+}
+
 .services-cont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: .8rem;
-}
-
-.services-heading {
-    text-align: center;
 }
 
 .card-body {
