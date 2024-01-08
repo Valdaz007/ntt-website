@@ -34,16 +34,13 @@
     text-align: center;
 }
 
-/*** Content Section **********************************/
-.index-content {
-    width: 95%;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
 /*** Card Service <Section> **************************/
 
-.services-heading {
+.services-header-cont {
+    background-color: var(--nttorange);
+    color: white;
+
+    padding: 8px;
     text-align: center;
 }
 
@@ -51,6 +48,48 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: .8rem;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.flip-card {
+    height: 150px;
+    /* Flip Style */
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.inner-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform .8s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.service-card:hover .inner-card {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    background-color: azure;
+    transform: rotateY(180deg);
+}
+
+.service-card img {
+    height: 100%;
 }
 
 .card-body {
@@ -59,14 +98,6 @@
 
 .card-text {
     font-size: .8rem;
-}
-
-.service-card {
-    box-shadow: 0px 0px 5px 1px var(--nttorange);
-}
-
-.service-card img {
-    height: 150px;
 }
 
 
@@ -81,6 +112,7 @@
 
 .solution-services {
     min-height: 90vh;
+    margin: 0 auto;
 }
 
 .soln .card img {
@@ -208,14 +240,26 @@
 }
 
 @media(min-width: 426px) {
-
-    .index-content {
-        width: 85%;
+    .services {
     }
 
     .services-cont {
         padding: 0;
         grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+    }
+
+    .solution-services {
+        width: 80%;
+    }
+
+    .br-info {
+        width: 80%;
+    }
+
+    .clients {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -223,8 +267,10 @@
     .services-cont {
         grid-template-columns: repeat(3, 1fr);
     }
+}
 
-    .index-content {
-        max-width: 80%;
+@media(min-width: 1028px) {
+    .services-cont {
+        gap: 5rem;
     }
 }
