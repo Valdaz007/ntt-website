@@ -18,36 +18,58 @@
 
             <!-- Index Content -->
             <div class="index-content">
-
                 <!-- Service Card Section-->
                 <section class="services">
-                    <h2 class="services-heading">Our Services</h2>
+                    <div class="services-header-cont">
+                        <h2 class="services-heading">Our Services</h2>
+                    </div>
             
                     <div class="services-cont">
                         <div class="service-card">
-                            <img src="./static/img/service-img/prof-image3.1 - 300x300.jpg" class="card-img-top img-fluid" alt="Rack Installation">
-                            <div class="card-body">
-                                <h5 class="card-title">Professional</h5>
-                                <p class="card-text">Design, Implement a Network Infrastructure that suit your organizations needs.</p>
+                        <h5 class="card-title">Professional</h5>
+                            <div class="flip-card">
+                                <div class="inner-card">
+                                    <div class="card-front">
+                                        <img src="./static/img/service-img/prof-image3.1 - 300x300.jpg" class="card-img-top" alt="Rack Installation">
+                                    </div>
+                                    <div class="card-body card-back">
+                                        <p class="card-text">
+                                            Design, Implement a Network Infrastructure 
+                                            that suit your organizations needs.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
             
                         <div class="service-card">
-                            <img src="./static/img/service-img/broad-img1.1 - 300x300.jpg" class="card-img-top" alt="VSAT Installation">
-                            <div class="card-body">
-                                <h5 class="card-title">Broadband</h5>
-                                <p class="card-text">
-                                    We provide the best Broadband Internet Service 
-                                    that can cover any type of Business.
-                                </p>
+                            <h5 class="card-title">Broadband</h5>
+                            <div class="flip-card">
+                                <div class="inner-card">
+                                    <div class="card-front">
+                                        <img src="./static/img/service-img/broad-img1.1 - 300x300.jpg" class="card-img-top" alt="VSAT Installation">
+                                    </div>
+                                    <div class="card-body card-back">
+                                        <p class="card-text">
+                                            We provide the best Broadband Internet Service 
+                                            that can cover any type of Business.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
             
                         <div class="service-card">
-                            <img src="./static/img/service-img//manage-image1.1 - 300x300.jpg" class="card-img-top" alt="Network Management">
-                            <div class="card-body">
-                                <h5 class="card-title">Managed</h5>
-                                <p class="card-text">Let us manage your Network Infrastructure giving you more time to focus on your business goals.</p>
+                            <h5 class="card-title">Managed</h5>
+                            <div class="flip-card">
+                                <div class="inner-card">
+                                    <div class="card-front">
+                                        <img src="./static/img/service-img//manage-image1.1 - 300x300.jpg" class="card-img-top" alt="Network Management">
+                                    </div>
+                                    <div class="card-body card-back">
+                                        <p class="card-text">Let us manage your Network Infrastructure giving you more time to focus on your business goals.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -56,7 +78,7 @@
 
                 <!-- Solutions Section -->
                 <section class="solution">
-                    <div class="row solution-title">
+                    <div class="solution-title">
                         <h2 class="soln-heading">Our Solutions</h2>
                     </div>
                     
@@ -176,7 +198,6 @@
                 <br><br>
                 <section class="">
                     <div class="br-info">
-                
                         <div class="info-img-wrapper">
                             <div class="img-info"></div>
                         </div>

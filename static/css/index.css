@@ -34,22 +34,77 @@
     text-align: center;
 }
 
-/*** Content Section **********************************/
-.index-content {
+/*** Card Service <Section> **************************/
+
+.services-header-cont {
+    background-color: var(--nttorange);
+    color: white;
+
+    padding: 8px;
+    text-align: center;
+}
+
+.services-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8rem;
+    
     width: 95%;
     margin: 0 auto;
     margin-top: 20px;
 }
 
-/*** Card Service <Section> **************************/
-.services-cont {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: .8rem;
+.card-title {
+    font-size: clamp(1rem, 4vw, 1.2rem);
+    text-align: center;
 }
 
-.services-heading {
-    text-align: center;
+.flip-card {
+    height: clamp(150px, 30vw, 200px);
+    /* Flip Style */
+    background-color: transparent;
+    perspective: 1000px;
+
+}
+
+.inner-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform .8s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.service-card:hover .inner-card {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    box-shadow: 2px 2px 5px 2px #323;
+}
+
+.card-back {
+    background-color: slateblue;
+    color: white;
+    transform: rotateY(180deg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 0 2px 2px #323 inset;
+}
+
+.service-card img {
+    border-radius: 0;
+    height: 100%;
 }
 
 .card-body {
@@ -57,15 +112,9 @@
 }
 
 .card-text {
-    font-size: .8rem;
-}
-
-.service-card {
-    box-shadow: 0px 0px 5px 1px var(--nttorange);
-}
-
-.service-card img {
-    height: 150px;
+    padding: 10px;
+    font-size: clamp(.8rem, 4vw, 1.2rem);
+    text-align: center;
 }
 
 
@@ -80,6 +129,8 @@
 
 .solution-services {
     min-height: 90vh;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .soln .card img {
@@ -107,6 +158,7 @@
 .br-info {
     background-color: var(--nttorange);
     min-height: 40vh;
+    width: 95%;
     margin: 0 auto;
     border-radius: 15px;
 
@@ -144,13 +196,16 @@
 }
 
 /*** Clients Section *****************************************************/
+.clients {
+    width: 95%;
+    margin: 0 auto;
+}
 
 .clients-heading {
     text-align: center;
 }
 
 .scroller {
-    max-width: 900px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -196,7 +251,7 @@
 
 .scroller-inner img {
     width: clamp(85px, 15vw, 175px);
-    padding: 1rem;
+    padding: .5rem;
     background-color: blanchedalmond;
     box-shadow: 0 0.5rem 1rem -.25rem rgb(30, 29, 29);
 }
@@ -209,13 +264,23 @@
 
 @media(min-width: 426px) {
 
-    .index-content {
-        width: 85%;
-    }
-
     .services-cont {
         padding: 0;
         grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+    }
+
+    .solution-services {
+        width: 80%;
+    }
+
+    .br-info {
+        width: 80%;
+    }
+
+    .clients {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -223,8 +288,10 @@
     .services-cont {
         grid-template-columns: repeat(3, 1fr);
     }
+}
 
-    .index-content {
-        max-width: 900px;
+@media(min-width: 1028px) {
+    .services-cont {
+        gap: 5rem;
     }
 }
