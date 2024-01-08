@@ -49,16 +49,18 @@
     grid-template-columns: repeat(2, 1fr);
     gap: .8rem;
     
+    width: 95%;
     margin: 0 auto;
     margin-top: 20px;
 }
 
 .card-title {
+    font-size: clamp(1rem, 4vw, 1.2rem);
     text-align: center;
 }
 
 .flip-card {
-    height: 150px;
+    height: clamp(150px, 30vw, 200px);
     /* Flip Style */
     background-color: transparent;
     perspective: 1000px;
@@ -84,12 +86,24 @@
     backface-visibility: hidden;
 }
 
+.card-front {
+    box-shadow: 2px 2px 5px 2px #323;
+}
+
 .card-back {
-    background-color: azure;
+    background-color: slateblue;
+    color: white;
     transform: rotateY(180deg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 0 2px 2px #323 inset;
 }
 
 .service-card img {
+    border-radius: 0;
     height: 100%;
 }
 
@@ -98,7 +112,9 @@
 }
 
 .card-text {
-    font-size: .8rem;
+    padding: 10px;
+    font-size: clamp(.8rem, 4vw, 1.2rem);
+    text-align: center;
 }
 
 
@@ -113,6 +129,7 @@
 
 .solution-services {
     min-height: 90vh;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -141,6 +158,7 @@
 .br-info {
     background-color: var(--nttorange);
     min-height: 40vh;
+    width: 95%;
     margin: 0 auto;
     border-radius: 15px;
 
@@ -178,6 +196,10 @@
 }
 
 /*** Clients Section *****************************************************/
+.clients {
+    width: 95%;
+    margin: 0 auto;
+}
 
 .clients-heading {
     text-align: center;
@@ -229,7 +251,7 @@
 
 .scroller-inner img {
     width: clamp(85px, 15vw, 175px);
-    padding: 1rem;
+    padding: .5rem;
     background-color: blanchedalmond;
     box-shadow: 0 0.5rem 1rem -.25rem rgb(30, 29, 29);
 }

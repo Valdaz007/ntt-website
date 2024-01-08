@@ -30,7 +30,7 @@
                             <div class="flip-card">
                                 <div class="inner-card">
                                     <div class="card-front">
-                                        <img src="./static/img/service-img/prof-image3.1 - 300x300.jpg" class="card-img-top img-fluid" alt="Rack Installation">
+                                        <img src="./static/img/service-img/prof-image3.1 - 300x300.jpg" class="card-img-top" alt="Rack Installation">
                                     </div>
                                     <div class="card-body card-back">
                                         <p class="card-text">
