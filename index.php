@@ -102,26 +102,6 @@
                                 </div>
                             </div>
                         </div>
-                
-                        <div class="col-6 col-sm-4 col-md-3 soln">
-                            <div class="card" style="height: 100%">
-                                <img class="card-img-top" src="./static/img/index-soln-img/Cloud-Storage.jpg" alt="Card image cap">
-                                <div class="card-body soln-body">
-                                    <h5 class="card-title">Cloud Storage</h5>
-                                    <a href="/solutions#cloud" class="btn btn-sm">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-sm-4 col-md-3 soln">
-                            <div class="card" style="height: 100%">
-                                <img class="card-img-top" src="./static/img/index-soln-img/Virtualization.jpg" alt="Card image cap">
-                                <div class="card-body soln-body">
-                                    <h5 class="card-title">Virtualization</h5>
-                                    <a href="/solutions#cloud" class="btn btn-sm" id="soln-link">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="col-6 col-sm-4 col-md-3 soln">
                             <div class="card" style="height: 100%">
@@ -167,17 +147,7 @@
                             <div class="card" style="height: 100%">
                                 <img class="card-img-top" src="./static/img/index-soln-img/Device-Procurement.jpg" alt="Card image cap">
                                 <div class="card-body soln-body">
-                                    <h5 class="card-title">Device Procuring</h5>
-                                    <a href="/solutions#procure" class="btn btn-sm">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-6 col-sm-4 col-md-3 soln">
-                            <div class="card" style="height: 100%">
-                                <img class="card-img-top" src="./static/img/index-soln-img/Software-Procurement.jpg" alt="Card image cap">
-                                <div class="card-body soln-body">
-                                    <h5 class="card-title">Software Procuring</h5>
+                                    <h5 class="card-title">Device & Software Procurement</h5>
                                     <a href="/solutions#procure" class="btn btn-sm">Learn More</a>
                                 </div>
                             </div>

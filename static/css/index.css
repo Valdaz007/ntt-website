@@ -119,16 +119,13 @@
 
 
 /*** Solution <Section> **************************/
-.solution {
-    min-height: 90vh;
-}
 
 .soln-heading {
     text-align: center;
 }
 
 .solution-services {
-    min-height: 90vh;
+    min-height: 50vh;
     width: 95%;
     margin: 0 auto;
 }
