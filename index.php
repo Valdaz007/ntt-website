@@ -101,8 +101,8 @@
                             </div>
                         </div>
                     </div>
+                <br>
                 </section>
-                <br><br>
 
                 <!-- Solutions Section -->
                 <section class="solution">
