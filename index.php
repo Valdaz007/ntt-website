@@ -78,7 +78,7 @@
 
                 <!-- Solutions Section -->
                 <section class="solution">
-                    <div class="row solution-title">
+                    <div class="solution-title">
                         <h2 class="soln-heading">Our Solutions</h2>
                     </div>
                     
