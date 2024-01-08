@@ -87,11 +87,11 @@
 }
 
 .card-front {
-    box-shadow: 2px 2px 5px 2px #323;
+    box-shadow: 2px 2px 4px 2px #323;
 }
 
 .card-back {
-    background-color: slateblue;
+    background-color: var(--nttorange);
     color: white;
     transform: rotateY(180deg);
 
@@ -113,19 +113,24 @@
 
 .card-text {
     padding: 10px;
-    font-size: clamp(.8rem, 4vw, 1.2rem);
+    font-size: clamp(.8rem, 2.5vw, 1.1rem);
     text-align: center;
 }
 
 
 /*** Solution <Section> **************************/
+.solution-title {
+    background-color: var(--nttorange);
+    padding: 15px;
+    color: white;
+}
 
 .soln-heading {
-    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .solution-services {
-    min-height: 50vh;
     width: 95%;
     margin: 0 auto;
 }
@@ -153,7 +158,7 @@
 /*** Brief Info Section *********************************************/
 
 .br-info {
-    background-color: var(--nttorange);
+    background-color: #335;
     min-height: 40vh;
     width: 95%;
     margin: 0 auto;
@@ -184,12 +189,16 @@
     justify-content: center;
     padding: 20px;
 
-    color: rgb(0, 48, 102);
+    color: white;
     font-weight: 400;
 }
 
 .info-para {
     font-size: .8rem;
+}
+
+.btn-success {
+    background-color: yellowgreen;
 }
 
 /*** Clients Section *****************************************************/
@@ -271,8 +280,25 @@
         width: 80%;
     }
 
+    .bg-brinfo {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .bg-info-img {
+        width: 100%;
+        height:100%;
+        position: absolute;
+        background-image: url(../img/data-plans/gpon/gpon-bg-icon.avif);
+        background-size: 150px;
+        z-index: -1;
+    }
+
     .br-info {
         width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .clients {
@@ -290,5 +316,9 @@
 @media(min-width: 1028px) {
     .services-cont {
         gap: 5rem;
+    }
+
+    .br-info {
+        width: 65%;
     }
 }

@@ -76,13 +76,41 @@
                 </section>
                 <br><br>
 
+                <section class="bg-brinfo">
+                    <div class="bg-info-img"></div>
+                    <div class="br-info">
+                        <div class="info-img-wrapper">
+                            <div class="img-info"></div>
+                        </div>
+
+                        <div class="content-info-wrapper">
+                            <div class="content-info">
+                                <h2 class="info-header">Who We Are</h2>
+                                <p class="info-para">
+                                    We’re a young talented group of Entrepreneurs and Engineers with 
+                                    groundbreaking idea that we hope will contribute towards a better tomorrow. 
+                                    We provide Smart Solutions for Companies of all size and pride ourselves on 
+                                    our Unparalleled Dedicated Service.
+                                </p>
+                                <p class="info-para">
+                                    At Next Town Technology we believe that the right understanding and 
+                                    technical edge can lead companies towards a successful future. We always 
+                                    seek valuable feedback from our clients in order to learn and evolve.
+                                </p>
+                                <a class="info-btn btn-sm btn-success" href="./company">Learn More About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br><br>
+
                 <!-- Solutions Section -->
                 <section class="solution">
                     <div class="solution-title">
                         <h2 class="soln-heading">Our Solutions</h2>
                     </div>
                     
-                    <div class="row g-3 solution-services">
+                    <div class="row g-3 gx-lg-5 solution-services">
                         <div class="col-6 col-sm-4 col-md-3 soln">
                             <div class="card" style="height: 100%;">
                                 <img class="card-img-top" src="./static/img/index-soln-img/Cloud-Hosting.jpg" alt="Card image cap">
@@ -160,33 +188,6 @@
                                     <h5 class="card-title">Telco Solutions</h5>
                                     <a href="/solutions#procure" class="btn btn-sm">Learn More</a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <br><br>
-                <section class="">
-                    <div class="br-info">
-                        <div class="info-img-wrapper">
-                            <div class="img-info"></div>
-                        </div>
-
-                        <div class="content-info-wrapper">
-                            <div class="content-info">
-                                <h2 class="info-header">Who We Are</h2>
-                                <p class="info-para">
-                                    We’re a young talented group of Entrepreneurs and Engineers with 
-                                    groundbreaking idea that we hope will contribute towards a better tomorrow. 
-                                    We provide Smart Solutions for Companies of all size and pride ourselves on 
-                                    our Unparalleled Dedicated Service.
-                                </p>
-                                <p class="info-para">
-                                    At Next Town Technology we believe that the right understanding and 
-                                    technical edge can lead companies towards a successful future. We always 
-                                    seek valuable feedback from our clients in order to learn and evolve.
-                                </p>
-                                <a class="info-btn btn-sm btn-success" href="./company">Learn More About Us</a>
                             </div>
                         </div>
                     </div>
