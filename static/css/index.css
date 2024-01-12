@@ -18,20 +18,20 @@
     max-width: 1000px;
     width: 80%;
     height: 90%;
-}
 
-.hero-heading {
-    padding-top: 10px;
-    color: white;
-    font-size: clamp(1rem, 4vw, 2.5rem);
-    text-align: center;
-}
+    .hero-heading {
+        padding-top: 10px;
+        color: white;
+        font-size: clamp(1rem, 4vw, 2.5rem);
+        text-align: center;
+    }
 
-.hero-subheading {
-    padding-bottom: 10px;
-    color: white;
-    font-size: clamp(.8rem, 2vw, 1.5rem);
-    text-align: center;
+    .hero-subheading {
+        padding-bottom: 10px;
+        color: white;
+        font-size: clamp(.8rem, 2vw, 1.5rem);
+        text-align: center;
+    }
 }
 
 main {
@@ -104,6 +104,11 @@ main {
 
 .card-front {
     box-shadow: 2px 2px 4px 2px #323;
+
+    & img {
+        border-radius: 0;
+        height: 100%;
+    }
 }
 
 .card-back {
@@ -117,21 +122,14 @@ main {
 
     outline: 5px solid #323;
     box-shadow: 0px 0px 15px 5px #323 inset;
-}
-
-.service-card img {
-    border-radius: 0;
-    height: 100%;
-}
-
-.card-body {
+    
     padding: 30px;
-}
 
-.card-text {
-    padding: 10px;
-    font-size: clamp(.8rem, 2.5vw, 1.2rem);
-    text-align: center;
+    .card-text {
+        padding: 10px;
+        font-size: clamp(.8rem, 2.5vw, 1.2rem);
+        text-align: center;
+    }
 }
 
 
