@@ -9,15 +9,7 @@
             <div class="bg-info-img"></div>
 
             <!-- Hero Section -->
-            <div class="hero">
-                <div class="hero-inner">
-                    <h1 class="hero-heading">WE ENABLE! YOUR VISION, OUR FUTURE</h1>
-                    <h4 class="hero-subheading">
-                        Providing the Best in Broadband Internet, 
-                        Information Technology & Telecommunication
-                    </h4>
-                </div>
-            </div>
+            <?php require_once "includes/indexHeroCarousel.php"; ?>
 
             <!-- Index Content -->
             <div class="index-content">
@@ -219,6 +211,6 @@
                 <br><br>
             </div>
         </main>
-        <script src="./static/js/carousel.js"></script>
+        <script src="./static/js/carousel.js" defer></scrip>
 
 <?php require_once "includes/footer.php"; ?>

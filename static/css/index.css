@@ -12,42 +12,6 @@ main {
     }
 }
 
-/*** Hero Section *************************************/
-.hero {
-    width: 100%;
-    height: clamp(100px,75vw,420px);
-
-    background-color: rgba(0, 0, 0, 0.25);
-    background-image: url('../img/hero-img/vsat-paranoma.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode:multiply;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-inner {
-    max-width: 1000px;
-    width: 80%;
-    height: 90%;
-
-    .hero-heading {
-        padding-top: 10px;
-        color: white;
-        font-size: clamp(1rem, 4vw, 2.5rem);
-        text-align: center;
-    }
-
-    .hero-subheading {
-        padding-bottom: 10px;
-        color: white;
-        font-size: clamp(.8rem, 2vw, 1.5rem);
-        text-align: center;
-    }
-}
-
 /*** Card Service <Section> **************************/
 .services-header-cont {
     background-color: var(--nttorange);
