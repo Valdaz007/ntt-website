@@ -27,11 +27,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
 
-.header-wrapper img {
-    height: 80%;
-    width: clamp(180px, 35vw, 200px);
+    & img {
+        height: 80%;
+        width: clamp(180px, 35vw, 200px);
+    }
 }
 
 .btn-nav {
@@ -48,6 +48,7 @@ header {
 .primary-nav li a {
     color: whitesmoke;
     font-size: 1rem;
+    font-weight: 600;
     text-decoration: none;
 }
 
