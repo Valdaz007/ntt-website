@@ -131,7 +131,7 @@ footer nav ul li a:hover {
 
 @media (min-width: 768px){
     .header-wrapper {
-        width: clamp(700px, 80%, 1000px);
+        width: 80%;
     }
 
     .header-wrapper img {
