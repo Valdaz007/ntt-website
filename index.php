@@ -80,6 +80,7 @@
                 </section>
                 <br><br>
 
+                <!-- Brief Info Section -->
                 <section class="bg-brinfo">
                     <div class="br-info">
                         <div class="info-img-wrapper">
