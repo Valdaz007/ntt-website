@@ -29,7 +29,7 @@
             
                     <div class="services-cont">
                         <div class="service-card">
-                        <h5 class="card-title">Professional</h5>
+                            <h5 class="card-title">Professional</h5>
                             <div class="flip-card">
                                 <div class="inner-card">
                                     <div class="card-front">

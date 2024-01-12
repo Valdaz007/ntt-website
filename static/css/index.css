@@ -54,7 +54,7 @@ main {
     background-color: var(--nttorange);
     color: white;
 
-    padding: 8px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -98,6 +98,8 @@ main {
     height: 100%;
     width: 100%;
     backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 .card-front {
@@ -105,7 +107,7 @@ main {
 }
 
 .card-back {
-    background-color: var(--nttorange);
+    background-color: deepskyblue;
     color: white;
     transform: rotateY(180deg);
 
@@ -113,7 +115,8 @@ main {
     align-items: center;
     justify-content: center;
 
-    box-shadow: 0 0 2px 2px #323 inset;
+    outline: 5px solid #323;
+    box-shadow: 0px 0px 15px 5px #323 inset;
 }
 
 .service-card img {
@@ -122,12 +125,12 @@ main {
 }
 
 .card-body {
-    padding: 10px 5px 10px 5px;
+    padding: 30px;
 }
 
 .card-text {
     padding: 10px;
-    font-size: clamp(.8rem, 2.5vw, 1.1rem);
+    font-size: clamp(.8rem, 2.5vw, 1.2rem);
     text-align: center;
 }
 
