@@ -6,6 +6,9 @@
 ?>
 
         <main>
+            <div class="bg-info-img"></div>
+
+            <!-- Hero Section -->
             <div class="hero">
                 <div class="hero-inner">
                     <h1 class="hero-heading">WE ENABLE! YOUR VISION, OUR FUTURE</h1>
@@ -77,7 +80,6 @@
                 <br><br>
 
                 <section class="bg-brinfo">
-                    <div class="bg-info-img"></div>
                     <div class="br-info">
                         <div class="info-img-wrapper">
                             <div class="img-info"></div>
@@ -193,7 +195,7 @@
                     </div>
                 </section>
                 
-                <br><br>
+                <br><br><br>
                 <section class="clients">
                     <h2 class="clients-heading">Our Valued Clients</h2>
 
