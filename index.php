@@ -21,6 +21,7 @@
 
             <!-- Index Content -->
             <div class="index-content">
+
                 <!-- Service Card Section-->
                 <section class="services">
                     <div class="services-header-cont">
@@ -103,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                <br>
+                    <br>
                 </section>
 
                 <!-- Solutions Section -->
@@ -194,10 +195,13 @@
                         </div>
                     </div>
                 </section>
-                
                 <br><br><br>
+                
+                <!-- Clients Section -->
                 <section class="clients">
-                    <h2 class="clients-heading">Our Valued Clients</h2>
+                    <div class="clients-heading">
+                        <h2>Our Valued Clients</h2>
+                    </div>
 
                     <div class="scroller">
                         <div class="scroller-inner">

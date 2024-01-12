@@ -219,15 +219,18 @@ main {
 
 /*** Clients Section *****************************************************/
 .clients {
-    width: 95%;
     margin: 0 auto;
-}
 
-.clients-heading {
-    text-align: center;
+    .clients-heading {
+        background-color: var(--nttorange);
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
 }
 
 .scroller {
+    width: 95%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -267,7 +270,7 @@ main {
     list-style: none;
 
     
-    padding-block: 1rem;
+    padding-block: 2rem;
     gap: 1rem;
 }
 
@@ -306,9 +309,8 @@ main {
         margin-bottom: 50px;
     }
 
-    .clients {
+    .scroller {
         width: 80%;
-        margin: 0 auto;
     }
 }
 
