@@ -1,7 +1,7 @@
 /*** Hero Section *************************************************************/
 .c-slide {
     width: 100%;
-    height: 350px;
+    height: clamp(400px, 40vw, 650px);
     background-size: cover;
     background-position: center;
 
@@ -15,15 +15,14 @@
 }
 
 .s-content-inner {
-    max-width: 1000px;
     width: 80%;
     height: 85%;
     margin: 0 auto;
+    padding: 20px 0 20px 0;
 
     display: grid;
 
     overflow: hidden;
-    border: 1px solid red;
 }
 
 /*** Slide 1 Content ********************************************************/
@@ -33,7 +32,7 @@
     margin-bottom: 15px;
 
     & h1 {
-        font-size: clamp(1.5rem, 5vw, 2.5rem);
+        font-size: clamp(1.4rem, 5vw, 2.5rem);
     }
     
     & h3 {
@@ -46,6 +45,7 @@
     background-size: cover;
     background-position: center;
     background-color: rgba(255, 255, 255, 0.534);
+
 }
 
 .c-slide:nth-child(1) .s-content-inner {
@@ -61,7 +61,8 @@
 }
 
 .c-slide:nth-child(1) .slide-content .s-content-inner img {
-    width: 90%;
+    width: 100%;
+    height: 30%;
     margin: 0 auto;
 }
 
@@ -72,24 +73,18 @@
     background-color: white;
 }
 
-.s2-heading {
-    height: 15%;
-    text-align: center;
-    border: 1px solid red;
+.slide2 {
+    color: black;
 }
 
-.hero-slide2-head {
-    text-align: center;
-}
+.mail-plans {
+    height: clamp(180px, 23vw, 200px);
+    max-width: 500px;
+    padding: 3px;
 
-.s2-plans {
-    height: 90%;
-    width: 100%;
-    margin: 0;
-}
-
-.mail {
-    height: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .mail-box {
@@ -105,24 +100,27 @@
 
 .mail-img {
     height: 40%;
-    background-size: 100%;
+    background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.mail:nth-child(1) .mail-img {
+.mail-img1 {
     background-color: rgba(172, 255, 47, 0.75);
     background-image: url("../img/email-plans/mail-std3-redish.png");
 }
 
-.mail:nth-child(2) .mail-img {
+.mail-img2 {
     background-color: rgba(255, 166, 0, 0.75);
     background-image: url("../img/email-plans/mail-enterp3-blue.png");
 }
 
 .mail-txt {
-    height: max-content;
+    height: 60%;
     font-size: clamp(.65rem, 2vw, 1.2rem);
+
+    display: flex;
+    align-items: center;
 }
 
 /*** Slide 3 Content *************************************************************/
@@ -132,29 +130,20 @@
     background-image: url("../img/hero-img/vsat-paranoma.jpg");
 }
 
-.c-slide:nth-child(3) .slide-content {
-    padding: 10px;
+.vsat-img {
+    height: 210px;
     position: relative;
+
+    & img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
 }
 
-.c-slide:nth-child(3) .slide-content .hero-texts{
-    border-radius: 20px;
-
-    color: white;
-
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-}
-
-.hero-plans {
-    background-image: url("../img/data-plans/vsat-data-plans.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.hero-plans img {
-    height: 100%;
+@media(min-width: 1024px){
+    .mail-plans {
+        height: 300px;
+        width: 500px;
+    }
 }
