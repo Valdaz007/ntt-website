@@ -20,12 +20,9 @@
     margin: 0 auto;
     padding: 20px 0 20px 0;
 
-    display: grid;
-
     overflow: hidden;
 }
 
-/*** Slide 1 Content ********************************************************/
 .slide-content-heading {
     text-align: center;
     color: white;
@@ -40,7 +37,18 @@
     }
 }
 
+/*** Slide 1 Content ********************************************************/
+.bg-slide1 {
+    background-color: rgba(0,0,0,.5);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .c-slide:nth-child(1) {
+    background-color: rgba(0,0,0,.5);
     background-image: url("../img/hero-img/index-landing01.png");
     background-size: cover;
     background-position: center;
@@ -51,19 +59,19 @@
 .c-slide:nth-child(1) .s-content-inner {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
 
     padding: 20px 0 20px 0;
-}
 
-.c-slide:nth-child(1) .slide-content .s-content-inner img {
-    width: 100%;
-    height: 30%;
-    margin: 0 auto;
+    & img {
+        width: 100%;
+        height: 50px;
+        margin: 0 auto;
+    }
 }
 
 
@@ -149,6 +157,18 @@
 }
 
 @media(min-width: 426px){
+    /* Slide 1 */
+    .c-slide:nth-child(1) .s-content-inner {
+        & img {
+            height: 75px;
+            width: 75%;            
+        }
+    }
+
+    .slide1 {
+        margin-bottom: 30px;
+    }
+
     /* Slide 2 */
     .mail-img2 {
         padding: 4px;
