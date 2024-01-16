@@ -56,4 +56,4 @@ function active_page($pgTitle, $page){
             </div>
         </header>
 
-        <script src="./static/js/header.js"></script>
+        <script src="./static/js/header.js" defer></script>
