@@ -9,14 +9,16 @@
             
                 <div class="carousel-inner">
                     <!-- Slide 1 -->
-                    <div class="carousel-item active c-slide" data-bs-interval="7000">
+                    <div class="carousel-item active c-slide" data-bs-interval="30000">
                         <div class="slide-content">
                             <div class="s-content-inner">
-                                <h1>WE ENABLE! YOUR VISION, OUR FUTURE.</h1>
-                                <h3>
-                                    Providing the Best in Broadband Internet, 
-                                    Information Technology & Telecommunication
-                                </h3><br>
+                                <div class="slide-content-heading">
+                                    <h1>WE ENABLE! YOUR VISION, OUR FUTURE.</h1>
+                                    <h3>
+                                        Providing the Best in Broadband Internet, 
+                                        Information Technology & Telecommunication
+                                    </h3>
+                                </div>
                                 <img src="./static/img/service-icon.png" alt="ICT Solutions">
                             </div>
                         </div>
