@@ -75,7 +75,7 @@ main {
 }
 
 .card-back {
-    background-color: deepskyblue;
+    background-color: rgba(51, 51, 150, 0.75);
     color: white;
     transform: rotateY(180deg);
 
@@ -83,8 +83,8 @@ main {
     align-items: center;
     justify-content: center;
 
-    outline: 3px solid #323;
-    box-shadow: 0px 0px 15px 5px #323 inset;
+    outline: 5px solid var(--nttorange);
+    box-shadow: 0px 0px 15px 2px var(--nttorange) inset;
     
     padding: 10px;
 
