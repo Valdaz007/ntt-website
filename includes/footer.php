@@ -39,6 +39,6 @@
             </div>
         </footer>
         
-        <script src="../static/js/bootstrap.js" crossorigin="anonymous"></script>
+        <script src="./static/js/bootstrap.js" crossorigin="anonymous"></script>
     </body>
 </html>

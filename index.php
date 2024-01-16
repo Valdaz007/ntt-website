@@ -211,6 +211,6 @@
                 <br><br>
             </div>
         </main>
-        <script src="./static/js/carousel.js" defer></scrip>
+        <script src="./static/js/carousel.js" defer></script>
 
 <?php require_once "includes/footer.php"; ?>
