@@ -36,7 +36,8 @@
 
                                 <div class="mail-plans">
                                     <div class="mail-box">
-                                        <div class="mail-img mail-img1"></div>
+                                        <div class="mail-img mail-img1">
+                                        </div>
                                         <div class="mail-txt">
                                             <p style="padding: 5px; text-align: center;">
                                                 Suitable for individual professionals and small 
@@ -46,7 +47,9 @@
                                     </div>
 
                                     <div class="mail-box">
-                                        <div class="mail-img mail-img2"></div>
+                                        <div class="mail-img2">
+                                            <img src="./static/img/email-plans/mail-enterp3-blue.png" alt="">
+                                        </div>
                                         <div class="mail-txt">
                                             <p style="padding: 5px; text-align: center;">
                                                 Take a step further with additional features that 
@@ -64,7 +67,7 @@
                     <div class="carousel-item c-slide" data-bs-interval="70000">
                         <div class="slide-content">
                             <div class="s-content-inner">
-                                <div class="slide-content-heading">
+                                <div class="slide-content-heading slide3">
                                     <h1>VSAT BROADBAND INTERNET</h1>
                                     <h3>Suitable for Remote Locations</h3>
                                 </div>
