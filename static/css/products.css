@@ -5,7 +5,7 @@
 /*** Hero Section ***********************************************/
 
 .hero {
-    height: 75vh;
+    height: clamp(400px, 37vw, 650px);
 
     background-image: url("../img/hero-img/products-hero.png");
     background-repeat: no-repeat;
@@ -13,10 +13,9 @@
     background-position: center;
 
     box-shadow: 0px 0px 7px #0f4c81 inset;
-    border-radius: 0px 0px 10px 10px;
 }
 
-.sample {
+.hero-content {
     min-height: 80%;
     width: 95%;
     margin: 0 auto;
@@ -25,16 +24,19 @@
     top: 10%;
 }
 
-.inner-sample .title {
-    font-size: 2.2rem;
-    text-align: justify;
-    color: #ed656300;
-    text-align: center;
-    -webkit-text-stroke: 0.1rem #ff9900;
+.hero-inner-cont {
+    width: 95%;
 }
 
-.inner-sample .sub-title {
-    font-size: 1.5rem;
+.hero-title {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #000000;
+    text-align: center;
+}
+
+.hero-sub-title {
+    font-size: 1rem;
     font-weight:500;
     color: #0f4c81;
     text-align: center;

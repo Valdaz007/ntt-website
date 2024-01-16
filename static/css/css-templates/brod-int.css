@@ -137,8 +137,8 @@
 }
 
 .next .d-plans .gpon {
-    min-height: 200px;
-    min-width: 200px;
+    min-height: 150px;
+    min-width: 100%;
 
     position: relative;
     overflow: hidden;

@@ -8,36 +8,31 @@
         <main>
             <!-- Hero Section -->
             <section class="hero">
-                <div class="row sample">
 
-                    <div class="col-2 inner-sample">
-                    </div>
+                <div class="hero-content">
 
-                    <div class="col-md-10 col-sm-12 inner-sample" >
-                        <div class="hero-content">
-                            <h2 class="title">FOR THE ULTIMATE INTERNET EXPERIENCE!</h2>
-                            <h2 class="sub-title">Check Out Our Broadband Internet Services</h2>
-            
-                            <div class="h-services">
-                                <div class="h-service">
-                                    <h4>OPTICAL FIBER</h4>
-                                    <hr>
-                                    <p>Fast Light Speed Internet <br>Straight to your Home / Office.</p>
-                                    <a class="btn btn-sm btn-primary" href="">Plans</a>
-                                </div>
-                                <div class="h-service">
-                                    <h4>NEXT GPON</h4>
-                                    <hr>
-                                    <p>Next Gen Internet Service<br>Bringing Internet Service to another Level</p>
-                                    <a class="btn btn-sm btn-primary" href="">Plans</a>
-                                </div>
-                                <div class="h-service">
-                                    <h4>VSAT</h4>
-                                    <hr>
-                                    <p>Need Reliable Internet Remotely.<br>VSAT is your Solution.</p>
-                                    <a class="btn btn-sm btn-primary" href="">Plans</a>
-                                </div>
-                            </div>
+                    <div class="hero-inner-cont" >
+                        <div class="hero-heading">
+                            <h1 class="hero-title">FOR THE ULTIMATE INTERNET EXPERIENCE!</h1>
+                            <h3 class="hero-sub-title">Check Out Our Broadband Internet Services</h3>
+                        </div>
+        
+                        <div class="h-service">
+                            <h4>OPTICAL FIBER</h4>
+                            <hr>
+                            <p>Fast Light Speed Internet <br>Straight to your Home / Office.</p>
+                        </div>
+
+                        <div class="h-service">
+                            <h4>NEXT GPON</h4>
+                            <hr>
+                            <p>Next Gen Internet Service<br>Bringing Internet Service to another Level</p>
+                        </div>
+
+                        <div class="h-service">
+                            <h4>VSAT</h4>
+                            <hr>
+                            <p>Need Reliable Internet Remotely.<br>VSAT is your Solution.</p>
                         </div>
                     </div>
                 </div>

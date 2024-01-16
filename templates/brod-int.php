@@ -53,7 +53,7 @@
                 <section class="row vsat">
                     <h2>VSAT INTERNET SERVICE<span><img src="./static/img/vsat-icon.png"></span></h2>
                     <hr>
-                    <img class="img-fluid" src="../static/img/data-plans/vsat-data-plans.png">
+                    <img class="img-fluid" src="./static/img/data-plans/vsat-data-plans.png">
                     <h5>
                         One Off VSAT Electronic & Terminal Cost K4,150.00.<br>
                         Installation Cost will depend on Location and Setup.
