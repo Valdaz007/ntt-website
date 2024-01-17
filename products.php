@@ -9,9 +9,7 @@
             <div class="bg-info-img"></div>
             <!-- Hero Section -->
             <section class="hero">
-
                 <div class="hero-content">
-
                     <div class="hero-inner-cont" >
                         <div class="hero-heading">
                             <h1 class="hero-title">FOR THE ULTIMATE INTERNET EXPERIENCE!</h1>
@@ -21,7 +19,7 @@
                 </div>
             </section><br> 
 
-            <div class="content container-fluid">
+            <div class="content">
                 <!-- Product Services  Links -->
                 <nav class="row navbar navbar-expand-md navbar-light">
                     <div class="container">
@@ -38,16 +36,15 @@
                     </div>
                 </nav><br>
                 
-                <div class="row">
+                <div class="">
                     <!-- Main Product Section -->
-                    <div class="col-lg-9" id="prod-cat">
+                    <div class="" id="prod-cat">
                         <?php require_once "templates/brod-int.php"?>
                     </div>
 
                     <!-- Side Bar Enquire Form Section -->
-                    <div class="col-lg-3 side-navbar">
+                    <div class="side-navbar">
                         <div class="sticky-box">
-
                             <form action="send.php" method="post" class="product-form">
                                 <h4>Enquire Now</h4>
                                 <hr>

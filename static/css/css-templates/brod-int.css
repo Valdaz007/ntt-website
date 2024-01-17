@@ -1,6 +1,16 @@
 
 
 /*** Direct Optical Fiber Section ***********************/
+.dof .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.dof .card {
+    flex: 1 0 auto;
+}
+
 .dof h2 {
     display: flex;
     align-items: center;

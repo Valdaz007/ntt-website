@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 main {
@@ -25,7 +27,7 @@ main {
     background-image: url("../img/hero-img/products-hero.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 
     box-shadow: 0px 0px 7px #0f4c81 inset;
 }
@@ -44,14 +46,14 @@ main {
 }
 
 .hero-title {
-    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 4vw, 2rem);
     text-align: justify;
     color: #000000;
     text-align: center;
 }
 
 .hero-sub-title {
-    font-size: 1rem;
+    font-size: clamp(1rem, 4vw, 1.6rem);
     font-weight:500;
     color: #0f4c81;
     text-align: center;
@@ -66,62 +68,11 @@ main {
     align-items: center;
 }
 
-.h-services {
-    display: flex;
-
-    height: inherit;
-    margin-top: 20px;
-}
-
-.h-service {
-    max-height: 250px;
-    min-height: 15vh;
-    min-width: 18vw;
-    margin: 5px;
-    padding: 15px;
-    background-color: rgba(255, 196, 0, 0.75);
-    box-shadow: 3px 3px 10px #0066ff;
-
-    border-radius: 5px;
-
-    text-align: center;
-}
-
-.h-service h4 {
-    color: #F9FBE7;
-    text-shadow:4px 4px 4px #0066ff;
-}
-
-.h-service hr {
-    border: 1px solid #000;
-}
-
-.h-service p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #000;
-}
-
-.h-service a {
-    color: white;
-    font-weight: 500;
-}
-
-
-.plan h1 {
-    font-size: 2.5em;
-    font-weight: 800;
-}
-
-.plan h1 .mbps {
-    font-size: .65em;
-    font-weight: 500;
-}
 
 /*** Content Section **********************************************************/
 
 .content {
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -168,75 +119,11 @@ main {
     margin-top: 10px;
 }
 
-@media (max-width: 991.98px) {
-    .hero {
-        background-position: 0;
-    }
 
-    .sample {
-        width: 100%;
-    }
+/*** MEDIA QUERIES **************************************/
 
-    .inner-sample .title {
-        font-size: 1.75rem;
-    }
-
-    .inner-sample .sub-title {
-        font-size: 1.25rem;
-    }
-
-    .hero-content {
-        padding: 0;
-    }
-
-    .h-service h4 {
-        font-size: 1.2rem;
-    }
-
-    .h-service p {
-        font-size: 1rem;
-    }
-
-    .plans {
-        margin-top: 5px 0 5px 0;
-        height: inherit;
-        color: black;
-    }
-
-    .plan {
-        min-height: 15vh;
-        min-width: 20vw;
-        box-shadow: 0 0 15px 0px var(--nttblue) inset;
-        background-color: #0066ff80;
-
-        -webkit-text-stroke: 1px var(--nttorange);
-        text-shadow:0 0 10px #ff9900;
-    }
-
-    .plan h1 {
-        margin-bottom: 10px;
-    }
-
-    .plan hr {
-        width: 50%;
-        margin: 0 auto;
-    }
-
-    .plan h4 {
-        color: #ffe;
-        font-size: 1.5rem;
-        font-weight: 700;
-
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 575.98px) {
-
-/*** Hero Section ***********************************************/
-    .hero {
-        height: 50vh;
-    }
+@media (min-width: 426px) {
+    /*** Hero Section ***********************************************/
 
     .inner-sample .title {
         font-size: 1.5rem;
@@ -246,39 +133,10 @@ main {
         font-size: 1rem;
     }
 
-    .hero-content {
-        align-items: right;
-        width: 100%;
-    }
 
-    .h-services {
-        margin-top: 10px;
-    }
-
-    .h-service h4 {
-        font-size: 1rem;
-    }
-
-    .h-service p {
-        font-size: .75rem;
-    }
-
-    .plans {
-        justify-content: right;
-    }
-
-    .plan {
-        padding: 10px;
-    }
-
-    .plan h1 {
-        font-size: 2rem;
-        margin-bottom: 5px;
-    }
-
-    .plan h4 {
-        font-size: 1.2rem;
-        margin-top: 3px;
+    /*** Main Content ***************************************************/
+    .content {
+        width: 80%;
     }
 
     .dof-plans {
@@ -292,6 +150,17 @@ main {
     .dof h5 {
         font-size: 1rem;
         font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .inner-sample .title {
+        font-size: 1.75rem;
+    }
+
+    .inner-sample .sub-title {
+        font-size: 1.25rem;
     }
 }
 
