@@ -6,6 +6,7 @@
 ?>
 
         <main>
+            <div class="bg-info-img"></div>
             <!-- Hero Section -->
             <section class="hero">
 
@@ -15,24 +16,6 @@
                         <div class="hero-heading">
                             <h1 class="hero-title">FOR THE ULTIMATE INTERNET EXPERIENCE!</h1>
                             <h3 class="hero-sub-title">Check Out Our Broadband Internet Services</h3>
-                        </div>
-        
-                        <div class="h-service">
-                            <h4>OPTICAL FIBER</h4>
-                            <hr>
-                            <p>Fast Light Speed Internet <br>Straight to your Home / Office.</p>
-                        </div>
-
-                        <div class="h-service">
-                            <h4>NEXT GPON</h4>
-                            <hr>
-                            <p>Next Gen Internet Service<br>Bringing Internet Service to another Level</p>
-                        </div>
-
-                        <div class="h-service">
-                            <h4>VSAT</h4>
-                            <hr>
-                            <p>Need Reliable Internet Remotely.<br>VSAT is your Solution.</p>
                         </div>
                     </div>
                 </div>

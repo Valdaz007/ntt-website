@@ -237,3 +237,9 @@
     color: #1B262C;
     text-align: center;
 }
+
+@media(min-width: 426px){
+    .next .d-plans .gpon {
+        min-height: 250px;
+    }
+}
