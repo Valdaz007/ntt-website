@@ -17,11 +17,11 @@
                         </div>
                     </div>
                 </div>
-            </section><br> 
+            </section>
 
             <div class="content">
                 <!-- Product Services  Links -->
-                <nav class="row navbar navbar-expand-md navbar-light">
+                <!-- <nav class="row navbar navbar-expand-md navbar-light">
                     <div class="container">
                         
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,11 +34,11 @@
                             </ul>
                         </div>
                     </div>
-                </nav><br>
+                </nav><br> -->
                 
                 <div class="">
                     <!-- Main Product Section -->
-                    <div class="" id="prod-cat">
+                    <div id="prod-cat">
                         <?php require_once "templates/brod-int.php"?>
                     </div>
 

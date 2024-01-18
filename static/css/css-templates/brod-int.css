@@ -1,19 +1,29 @@
 
 
 /*** Direct Optical Fiber Section ***********************/
+.dof-heading {
+    background-color: var(--nttorange);
+    padding: 15px;
+
+    & > * {
+        width: 95%;
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+    }
+}
+
 .dof .card-deck {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+
+    width: 95%;
+    margin: 0 auto;
 }
 
 .dof .card {
     flex: 1 0 auto;
-}
-
-.dof h2 {
-    display: flex;
-    align-items: center;
 }
 
 .dof h2 img {
@@ -23,117 +33,20 @@
     margin-bottom: 2px;
 }
 
-.dof-plans {
-    display: flex;
-    align-items: center;
-}
-
-.dof-plan {
-    text-align: center;
-    width: 100%;
-    min-height: 250px;
-    color: #fff;
-
-    -webkit-text-stroke:1px #0066ff;
-    text-shadow:0 0 10px #0066ff;
-
-    box-shadow: 5px 5px 5px #ff9900, -1px -1px 1px #ccc;
-    background-color: #fff;
-    border-radius: 0 35px;
-
-    position: relative;
-    overflow: hidden;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.dof-plan::before {
-    content:"";
-    background-image:conic-gradient(
-        #0066ff 20deg, 
-        transparent 120deg
-    );
-    width: 200%;
-    height: 160%;
-
-    position: absolute;
-    animation: rotate 8s linear infinite;
-}
-
-.dof-10::before {
-    background-image:conic-gradient(
-        rgb(78, 230, 78) 20deg, 
-        transparent 120deg
-    );
-}
-
-.dof-50::before {
-    background-image:conic-gradient(
-        #ffff11 20deg, 
-        transparent 120deg
-    );
-}
-
-.dof-plan:hover::before {
-    background-image:conic-gradient(
-        #ff0052 20deg, 
-        transparent 120deg
-    );
-    
-    animation: rotate 2s linear reverse infinite;
-}
-
-.dof-plan::after {
-    content:"";
-    width: 90%;
-    height: 90%;
-    background-color: #ffc;
-    background-image: url("../../img/data-plans/dof-20.png");
-    background-size:contain;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    padding: 10px;
-
-    box-shadow: inset 10px 10px 10px var(--nttorange);
-    border-radius: 0 30px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    position: absolute;
-}
-
-.dof-10::after {
-    background-image: url("../../img/data-plans/dof-10.png");
-}
-
-.dof-50::after {
-    background-image: url("../../img/data-plans/dof-50.png");
-}
-
-.dof-plan h5 {
-    font-weight: 700;
-}
-
-.dof h5 {
-    width: 80%;
-    margin: 0 auto;
-    color: #1B262C;
-    text-align: center;
-    font-size: clamp(1rem, 2vw, 1.2rem);
-}
-
 
 /*** Next Broadband Internet ****************************/
-.next h2 {
-    display: flex;
-    align-items: center;
+.next-heading {
+    background-color: var(--nttorange);
+    padding: 15px;
+
+    & > * {
+        width: 95%;
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+    }
 }
+
 
 .next h2 img {
     width: 60px;
@@ -142,8 +55,9 @@
     margin-bottom: 2px;
 }
 
-.next .d-plans img {
-    width: 100%;
+.next-plans {
+    width: 95%;
+    margin: 0 auto;
 }
 
 .next .d-plans .gpon {
@@ -248,8 +162,30 @@
     text-align: center;
 }
 
+
+/*** Media Queries ************************************/
 @media(min-width: 426px){
     .next .d-plans .gpon {
-        min-height: 250px;
+        min-height: 200px;
+    }
+    
+    .dof-heading {    
+        & > * {
+            width: 80%;
+        }
+    }
+    
+    .dof .card-deck {    
+        width: 80%;
+    }
+
+    .next-plans {
+        width: 80%;
+    }
+}
+
+@media(min-width: 1024px){
+    .next .d-plans .gpon {
+        min-height: 300px;
     }
 }

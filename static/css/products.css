@@ -69,14 +69,7 @@ main {
 }
 
 
-/*** Content Section **********************************************************/
-
-.content {
-    width: 95%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
+/*** Content Section ************************************/
 
 /*** Side Bar Section ***********************************/
 
@@ -131,25 +124,6 @@ main {
 
     .inner-sample .sub-title {
         font-size: 1rem;
-    }
-
-
-    /*** Main Content ***************************************************/
-    .content {
-        width: 80%;
-    }
-
-    .dof-plans {
-        flex-direction: row;
-    }
-
-    .dof-plan {
-        min-height: 150px;
-    }
-
-    .dof h5 {
-        font-size: 1rem;
-        font-weight: 500;
     }
 }
 
