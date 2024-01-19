@@ -125,6 +125,10 @@ main {
     .inner-sample .sub-title {
         font-size: 1rem;
     }
+
+    .product-form {
+        width: 50%;
+    }
 }
 
 @media (min-width: 768px) {
