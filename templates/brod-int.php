@@ -100,12 +100,17 @@
                 </section><br><br>
 
                 <!-- VSAT Broadband Service Plans Section -->
-                <section class="row vsat">
-                    <h2>VSAT INTERNET SERVICE<span><img src="./static/img/vsat-icon.png"></span></h2>
-                    <hr>
-                    <img class="img-fluid" src="./static/img/data-plans/vsat-data-plans.png">
-                    <h5>
-                        One Off VSAT Electronic & Terminal Cost K4,150.00.<br>
-                        Installation Cost will depend on Location and Setup.
-                    </h5>
+                <section class="vsat">
+                    <div class="vsat-heading">
+                        <h2>VSAT INTERNET SERVICE<span><img src="./static/img/vsat-icon.png"></span></h2>
+                        <h4>CONNECT ANYWHERE IN PAPUA NEW GUINEA</h4>
+                    </div>
+
+                    <div class="vsat-content">
+                        <img class="img-fluid" src="./static/img/data-plans/vsat-data-plans.png">
+                        <h5 class="card w-100 bg-info text-light p-4">
+                            One Off VSAT Electronic & Terminal Cost K4,150.00.<br>
+                            Installation Cost will depend on Location and Setup.
+                        </h5>
+                    </div>
                 </section><br><br>
