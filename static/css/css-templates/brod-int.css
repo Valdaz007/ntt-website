@@ -13,13 +13,20 @@
     }
 }
 
+.dof h2 img {
+    height: 60px;
+
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
 .dof .card-deck {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
 
     width: 95%;
     margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .dof .card {
@@ -51,11 +58,16 @@
     background-color: rgba(0, 0, 50, 0.75);
 }
 
-.dof h2 img {
-    height: 60px;
+.dof-price {
+    background-color: #1b262c86;
+    padding: .4rem;
+}
 
-    margin-left: 30px;
-    margin-bottom: 2px;
+.dof-img {
+    background-image: url(../../img/data-plans/sme-crop.jpg);
+    background-size: cover;
+    background-position: center;
+    display: none;
 }
 
 .dof .tm {
@@ -282,7 +294,15 @@
 
 
 
-@media(min-width: 768px){
+@media(min-width: 769px){
+    .dof .card-deck {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    
+    .dof-img {
+        display: block;
+    }
 
     .vsat-content {
         grid-template-columns: repeat(3, 1fr);

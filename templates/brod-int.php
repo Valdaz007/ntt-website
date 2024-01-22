@@ -10,7 +10,7 @@
                     <h5 class="fs-4 mt-4 mb-4 text-center">UNLIMITED FULL DUPLEX</h5>
 
                     <div class="row dof-plans card-deck">
-                        <div class="col-6 col-md-3 col-lg-2 border p-2 p-md-4 p-lg-3 card m-md-1">
+                        <div class="border p-2 p-md-4 p-lg-3 card m-md-1">
                             <h5 class="text-start fs-5 fw-bold text-dark card-title">SME</h5>
                             
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
@@ -18,28 +18,37 @@
                             </h5>
                             
                             <h5 class="text-start fs-2 mt-2 text-warning">K5,000<br> 
-                                <span class="fs-4 fw-light text-warning">Per Month</span>
+                                <span class="fs-5 fw-light text-warning">Per Month</span>
                             </h5>
                             <h5 class="text-start fs-6 fw-normal mt-2 text-warning">
                                 Suitable for large businesses with 20 plus personals
                                 having moderate internet usage.
                             </h5>
                         </div>
+
+                        <div class="border p-2 p-md-4 p-lg-3 card m-md-1 dof-img">
+                        </div>
                         
-                        <div class="col-6 col-md-3 col-lg-2 border p-2 p-md-4 p-lg-3 card m-md-1">
+                        <div class="border p-2 p-md-4 p-lg-3 card m-md-1">
                             <h5 class="text-start fs-5 fw-bold card-title">BUSINESS</h5>
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
-                                20<span class="fs-5 fw-normal ps-1">MBPS</span></h5>
-                            <h5 class="text-start fs-2 mt-2 text-warning">K10,000<br>
-                                <span class="fs-4 fw-light text-warning">Per Month</span>
+                                20<span class="fs-5 fw-normal ps-1">MBPS</span>
                             </h5>
-                            <h5 class="text-start fs-6 fw-normal mt-2 text-warning">
+                            <div class="dof-price">
+                                <h5 class="text-start fs-2 mt-2 text-warning">K10,000<br>
+                                    <span class="fs-5 fw-light text-warning">Per Month</span>
+                                </h5>
+                            </div>
+                            <h5 class="text-start fs-6 fw-normal mt-2 text-light">
                                 Departments with more than a 50 plus personals
                                 having moderate internet usage.
                             </h5>
                         </div>
 
-                        <div class="col-6 col-md-3 col-lg-2 border p-2 pe-1 p-md-4 p-lg-3 card m-md-1">
+                        <div class="border p-2 p-md-4 p-lg-3 card m-md-1 dof-img">
+                        </div>
+
+                        <div class="border p-2 pe-1 p-md-4 p-lg-3 card m-md-1">
                             <h5 class="text-start fs-5 fw-bolder card-title">ENTERPRISE</h5>
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
                                 50<span class="fs-5 fw-normal ps-1">MBPS</span>
@@ -53,7 +62,7 @@
                             </h5>
                         </div>
 
-                        <div class="col-6 col-md-3 col-lg-2 border p-2 pe-1 p-md-4 p-lg-3 card m-md-1">
+                        <div class="border p-2 pe-1 p-md-4 p-lg-3 card m-md-1">
                             <h5 class="text-start fs-5 fw-bolder card-title">ABOVE</h5>
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
                                 50<span class="fs-5 fw-normal ps-1">MBPS</span>
@@ -64,7 +73,7 @@
                             </h5>
                         </div>
 
-                        <div class="col-12 col-md-6 col-lg-12 m-md-1 p-2 p-md-5 p-lg-4 tm">
+                        <div class="m-md-1 p-2 p-md-3 p-lg-4 tm">
                             <img src="" alt="">
                             <h5 class="text-center fs-6 text-dark text-light">
                                 One off installation cost will be applied and varies depending on customer
