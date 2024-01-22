@@ -102,16 +102,126 @@
 
                 <!-- VSAT Broadband Service Plans Section -->
                 <section class="vsat">
-                    <div class="vsat-heading">
+                    <div class="vsat-heading mb-3">
                         <h2>VSAT INTERNET SERVICE<span><img src="./static/img/vsat-icon.png"></span></h2>
                         <h4>CONNECT ANYWHERE IN PAPUA NEW GUINEA</h4>
                     </div>
 
-                    <div class="vsat-content">
-                        <img class="img-fluid" src="./static/img/data-plans/vsat-data-plans.png">
-                        <h5 class="card w-100 bg-info text-light p-4">
-                            One Off VSAT Electronic & Terminal Cost K4,150.00.<br>
-                            Installation Cost will depend on Location and Setup.
-                        </h5>
+                    <div class="vsat-content card-deck">
+                        <div class="vsat-plan border p-2 p-md-5 p-lg-6">
+                            <h3 class="text-center fs-6">Home <span class="fs-6 fw-normal">Standard</span></h3>
+                            <p class="vsat-users">Connect 2 Users</p>
+
+                            <h5 class="fs-1 text-warning">15 
+                                <span class="fs-6">MBPS</span>
+                                <span class="down-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="fs-1 text-warning">10 <span class="fs-6">MBPS</span>
+                                <span class="up-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+
+                            <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K645 <span>Monthly</span></h5>
+                        </div>
+
+                        <div class="vsat-plan border p-2 p-md-5 p-lg-6">
+                            <h3 class="text-center fs-6">Home <span class="fs-6 fw-normal">Extra</span></h3>
+                            <p class="vsat-users">Connect 4 Users</p>
+
+                            <h5 class="fs-1 text-warning">30 
+                                <span class="fs-6">MBPS</span>
+                                <span class="down-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="fs-1 text-warning">10 <span class="fs-6">MBPS</span>
+                                <span class="up-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+
+                            <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K790 <span>Monthly</span></h5>
+                        </div>
+
+                        <div class="vsat-plan border p-2 p-md-5 p-lg-6">
+                            <h3 class="text-center fs-6">SME <span class="fs-6 fw-normal">Standard</span></h3>
+                            <p class="vsat-users">Connect 7 Users</p>
+
+                            <h5 class="fs-1 text-warning">50 
+                                <span class="fs-6">MBPS</span>
+                                <span class="down-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="fs-1 text-warning">15 <span class="fs-6">MBPS</span>
+                                <span class="up-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+
+                            <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K1,658 <span>Monthly</span></h5>
+                        </div>
+
+                        <div class="vsat-plan border p-2 p-md-5 p-lg-6">
+                            <h3 class="text-center fs-6">SME <span class="fs-6 fw-normal">Extra</span></h3>
+                            <p class="vsat-users">Connect 10 Users</p>
+
+                            <h5 class="fs-1 text-warning">60 
+                                <span class="fs-6">MBPS</span>
+                                <span class="down-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="fs-1 text-warning">20 <span class="fs-6">MBPS</span>
+                                <span class="up-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K2,592 <span>Monthly</span></h5>
+                        </div>
+
+                        <div class="vsat-plan border p-2 p-md-5 p-lg-6">
+                            <h3 class="text-center fs-6">Business</h3>
+                            <p class="vsat-users">Connect 25 Users</p>
+
+                            <h5 class="fs-1 text-warning">70 
+                                <span class="fs-6">MBPS</span>
+                                <span class="down-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="fs-1 text-warning">20 <span class="fs-6">MBPS</span>
+                                <span class="up-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K6,006 <span>Monthly</span></h5>
+                        </div>
+
+                        <div class="vsat-plan border p-2 p-md-5 p-lg-6">
+                            <h3 class="text-center fs-6">Government</h3>
+                            <p class="vsat-users">Connect 60 Users</p>
+
+                            <h5 class="fs-1 text-warning">100 
+                                <span class="fs-6">MBPS</span>
+                                <span class="down-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="fs-1 text-warning">20 <span class="fs-6">MBPS</span>
+                                <span class="up-icon">
+                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                </span>
+                            </h5>
+                            <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K11,825 <span>Monthly</span></h5>
+                        </div>
                     </div>
+
+                    <h5 class="vsat-plan-tm fs-6 bg-info text-center text-light p-4 mt-4">
+                        One Off VSAT Electronic & Terminal Cost K4,150.00.<br>
+                        Installation Cost will depend on Location and Setup.
+                    </h5>
                 </section><br><br>
