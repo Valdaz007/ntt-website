@@ -37,7 +37,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.dof-plans .card {
+.dof-plans .dof-plan {
     position: relative;
     background-color: rgba(0, 0, 50, 0.55);
     flex: 1 0 auto;
@@ -49,7 +49,7 @@
     }
 }
 
-.card::before {
+.dof-plan::before {
     content: "";
     position: absolute;
     top:0;
@@ -315,14 +315,14 @@
         gap: 1rem;
     }
 
-    .card:nth-child(4) {
+    .dof-plan:nth-child(4) {
         background-image: url(../../img/data-plans/business-crop.jpg);
         background-size: cover;
         background-position: center;
         display: none;
     }
 
-    .card:nth-child(7) {
+    .dof-plan:nth-child(7) {
         background-image: url(../../img/data-plans/warehouse.jpg); /* Image by DC Studio on Freepik */
         background-size: cover;
         background-position: center;
