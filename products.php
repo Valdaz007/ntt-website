@@ -6,7 +6,6 @@
 ?>
 
         <main>
-            <div class="bg-info-img"></div>
             <!-- Hero Section -->
             <section class="hero">
                 <div class="hero-content">

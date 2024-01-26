@@ -35,6 +35,7 @@ function active_page($pgTitle, $page){
     </head>
 
     <body>
+        <div class="bg-info-img"></div>
         <header>
             <div class="header-wrapper">
                 <img src="./static/ntt-logo.gif" alt="">
