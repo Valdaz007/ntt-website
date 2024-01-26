@@ -3,14 +3,16 @@
                 <!-- Direct Optical Fiber Plans Section -->
                 <section class="dof" id="internet">
                     <div class="dof-heading">
-                        <h2>
-                            DIRECT OPTICAL FIBER<span class="dof-icon"><img src="./static/img/dof-icon.png"></span>
-                        </h2>
+                        <div class="head-icon">
+                            <h2>DIRECT OPTICAL FIBER</h2>
+                            <img src="./static/img/data-plans/icon/lightning-fast.png">
+                        </div>
+                        <h4 class="mt-2">LIGHTNING FAST INTERNET</h4>
                     </div>
                     <h5 class="fs-4 mt-4 mb-4 text-center">UNLIMITED FULL DUPLEX</h5>
 
-                    <div class="row dof-plans card-deck">
-                        <div class="border p-2 p-md-4 p-lg-3 card m-md-1">
+                    <div class="dof-plans card-deck">
+                        <div class="border p-2 p-md-4 card m-md-1">
                             <h5 class="text-start fs-5 fw-bold text-dark card-title">SME</h5>
                             
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
@@ -26,10 +28,9 @@
                             </h5>
                         </div>
 
-                        <div class="border p-2 p-md-4 p-lg-3 card m-md-1 dof-img">
-                        </div>
-                        
-                        <div class="border p-2 p-md-4 p-lg-3 card m-md-1">
+                        <div class="border p-2 p-md-4 card m-md-1 dof-img"></div>
+
+                        <div class="border p-2 p-md-4 card m-md-1">
                             <h5 class="text-start fs-5 fw-bold card-title">BUSINESS</h5>
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
                                 20<span class="fs-5 fw-normal ps-1">MBPS</span>
@@ -45,10 +46,13 @@
                             </h5>
                         </div>
 
-                        <div class="border p-2 p-md-4 p-lg-3 card m-md-1 dof-img">
+                        <div class="border p-2 p-md-4 card m-md-1 dof-img"></div>
+
+                        <div class="p-2 md-4 m-md-1 dof-md-text">
+                            <h2 class="text-center">Lightning Fast Internet Straight to Your Doorstep</h2>
                         </div>
 
-                        <div class="border p-2 pe-1 p-md-4 p-lg-3 card m-md-1">
+                        <div class="border p-2 p-md-4 card m-md-1">
                             <h5 class="text-start fs-5 fw-bolder card-title">ENTERPRISE</h5>
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
                                 50<span class="fs-5 fw-normal ps-1">MBPS</span>
@@ -62,7 +66,9 @@
                             </h5>
                         </div>
 
-                        <div class="border p-2 pe-1 p-md-4 p-lg-3 card m-md-1">
+                        <div class="border p-2 p-md-4 card m-md-1 dof-img"></div>
+
+                        <div class="border p-2 p-md-4 card m-md-1">
                             <h5 class="text-start fs-5 fw-bolder card-title">ABOVE</h5>
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
                                 50<span class="fs-5 fw-normal ps-1">MBPS</span>

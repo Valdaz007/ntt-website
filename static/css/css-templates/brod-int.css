@@ -5,23 +5,31 @@
     background-color: var(--nttorange);
     padding: 15px;
 
-    & > * {
-        width: 95%;
-        margin: 0 auto;
-        color: white;
+    .head-icon {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & h2 {
+            background-color:transparent;
+            color: white;
+            margin: 0;
+        }
+    
+        & img {
+            width: 45px;
+            margin-left: 10px;
+        }
+    }
+
+    & h4 {
+        width: 100%;
         text-align: center;
     }
 }
 
-.dof h2 img {
-    height: 60px;
-
-    margin-left: 30px;
-    margin-bottom: 2px;
-}
-
-.dof .card-deck {
-
+.dof .dof-plans {
     width: 95%;
     margin: 0 auto;
 
@@ -29,7 +37,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.dof .card {
+.dof-plans .card {
     position: relative;
     background-color: rgba(0, 0, 50, 0.55);
     flex: 1 0 auto;
@@ -70,6 +78,11 @@
     display: none;
 }
 
+.dof-md-text {
+    background-image:none;
+    grid-column: 1/-1;
+}
+
 .dof .tm {
     position: relative;
     align-items: center;
@@ -78,6 +91,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
+
+    grid-column: 1/-1;
 }
 
 
@@ -93,7 +108,6 @@
         text-align: center;
     }
 }
-
 
 .next h2 img {
     width: 60px;
@@ -273,7 +287,7 @@
         }
     }
     
-    .dof .card-deck {    
+    .dof .dof-plans {    
         width: 80%;
     }
 
@@ -292,16 +306,34 @@
     }
 }
 
-
-
-@media(min-width: 769px){
-    .dof .card-deck {
+@media(min-width: 700px){
+    .dof-img {
+        display: block;
+    }
+    .dof .dof-plans {
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
-    
-    .dof-img {
-        display: block;
+
+    .card:nth-child(4) {
+        background-image: url(../../img/data-plans/business-crop.jpg);
+        background-size: cover;
+        background-position: center;
+        display: none;
+    }
+
+    .card:nth-child(7) {
+        background-image: url(../../img/data-plans/warehouse.jpg); /* Image by DC Studio on Freepik */
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+@media(min-width: 769px){
+    .dof .dof-plans {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
     }
 
     .vsat-content {
@@ -312,7 +344,24 @@
 
 
 
-@media(min-width: 1024px){
+@media(min-width: 1025px){
+    .dof .dof-plans {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .card:nth-child(4) {
+        display: block;
+    }
+
+    .card:nth-child(7) {
+       grid-column: 2/4;
+    }
+
+    .dof .tm {
+        grid-column-end: 5;
+    }
+
     .next .d-plans .gpon {
         min-height: clamp(200px, 18vw, 300px);
     }
