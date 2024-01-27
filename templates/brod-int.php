@@ -93,8 +93,11 @@
                 <!-- NEXT Broadband Service Plans Section -->
                 <section class="next">
                     <div class="next-heading">
-                        <h2>NEXT BROADBAND SERVICE<span><img src="./static/img/pon-icon.png"></span></h2>
-                        <h4>FAST & RELIABLE FIBER TO THE HOME GPON SERVICE</h4>
+                        <div class="next-head-icon">
+                            <h2>NEXT BROADBAND</h2>
+                            <img src="./static/img/data-plans/icon/splitter.png">
+                        </div>
+                        <h4 class="mt-2 text-dark">FAST & RELIABLE FIBER TO THE HOME GPON SERVICE</h4>
                     </div>
 
                     <div class="next-plans">
