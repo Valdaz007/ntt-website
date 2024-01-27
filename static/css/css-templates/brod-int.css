@@ -237,36 +237,42 @@
 
 .vsat-plan {
     position: relative;
+    flex: 1 0 auto;
     background-color: rgba(0, 0, 50, 0.55);
     color: white;
-}
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #0072d6;
+        background-image: url(../../img/data-plans/vsat-bg-img.png);
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+    }
 
-.vsat-plan::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #0072d6;
-    background-image: url(../../img/data-plans/vsat-bg-img.png);
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-}
+    .vsat-users {
+        text-align: center;
+        font-size: smaller;
+    }
 
-.vsat-users {
-    text-align: center;
-    font-size: smaller;
-}
-
-.down-icon img{
-    width: 30px;
-}
-
-.up-icon img {
-    width: 30px;
-    transform: rotate(180deg);
+    .speed-wrapper {
+        width:max-content;
+        margin: 0 auto;
+    
+        & h5 .down-icon img {
+            width: 30px;
+        }
+    
+        & h5 .up-icon img {
+            width: 30px;
+            transform: rotate(180deg);
+        }
+    }
 }
 
 .vsat-plan-tm {
@@ -350,11 +356,11 @@
         gap: 1rem;
     }
 
-    .card:nth-child(4) {
+    .dof-plan:nth-child(4) {
         display: block;
     }
 
-    .card:nth-child(7) {
+    .dof-plan:nth-child(7) {
        grid-column: 2/4;
     }
 
@@ -377,7 +383,7 @@
 
 @media(min-width: 1440px){
     .vsat-content {
-        grid-template-columns: repeat(6, 1fr);
-        gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
     }
 }

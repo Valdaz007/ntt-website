@@ -123,114 +123,126 @@
                     </div>
 
                     <div class="vsat-content card-deck">
-                        <div class="vsat-plan border p-2 p-md-3 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
                             <h3 class="text-center fs-6 fs-md-1">Home <span class="fs-6 fw-normal">Standard</span></h3>
                             <p class="vsat-users">Connect 2 Users</p>
 
-                            <h5 class="fs-1 text-warning">15 
-                                <span class="fs-6">MBPS</span>
-                                <span class="down-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
-                            <h5 class="fs-1 text-warning">10 <span class="fs-6">MBPS</span>
-                                <span class="up-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
+                            <div class="speed-wrapper">
+                                <h5 class="fs-1 text-warning">15 
+                                    <span class="fs-6">MBPS</span>
+                                    <span class="down-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                                <h5 class="fs-1 text-warning text-end">10 <span class="fs-6">MBPS</span>
+                                    <span class="up-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                            </div>
 
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K645 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 p-md-3 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
                             <h3 class="text-center fs-6">Home <span class="fs-6 fw-normal">Extra</span></h3>
                             <p class="vsat-users">Connect 4 Users</p>
 
-                            <h5 class="fs-1 text-warning">30 
-                                <span class="fs-6">MBPS</span>
-                                <span class="down-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
-                            <h5 class="fs-1 text-warning">10 <span class="fs-6">MBPS</span>
-                                <span class="up-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
+                            <div class="speed-wrapper">
+                                <h5 class="fs-1 text-warning">30 
+                                    <span class="fs-6">MBPS</span>
+                                    <span class="down-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                                <h5 class="fs-1 text-warning text-end">10 <span class="fs-6">MBPS</span>
+                                    <span class="up-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                            </div>
 
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K790 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 p-md-3 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
                             <h3 class="text-center fs-6">SME <span class="fs-6 fw-normal">Standard</span></h3>
                             <p class="vsat-users">Connect 7 Users</p>
 
-                            <h5 class="fs-1 text-warning">50 
-                                <span class="fs-6">MBPS</span>
-                                <span class="down-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
-                            <h5 class="fs-1 text-warning">15 <span class="fs-6">MBPS</span>
-                                <span class="up-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
+                            <div class="speed-wrapper">
+                                <h5 class="fs-1 text-warning">50 
+                                    <span class="fs-6">MBPS</span>
+                                    <span class="down-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                                <h5 class="fs-1 text-warning text-end">15 <span class="fs-6">MBPS</span>
+                                    <span class="up-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                            </div>
 
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K1,658 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 p-md-3 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
                             <h3 class="text-center fs-6">SME <span class="fs-6 fw-normal">Extra</span></h3>
                             <p class="vsat-users">Connect 10 Users</p>
 
-                            <h5 class="fs-1 text-warning">60 
-                                <span class="fs-6">MBPS</span>
-                                <span class="down-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
-                            <h5 class="fs-1 text-warning">20 <span class="fs-6">MBPS</span>
-                                <span class="up-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
+                            <div class="speed-wrapper">
+                                <h5 class="fs-1 text-warning">60 
+                                    <span class="fs-6">MBPS</span>
+                                    <span class="down-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                                <h5 class="fs-1 text-warning text-end">20 <span class="fs-6">MBPS</span>
+                                    <span class="up-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                            </div>
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K2,592 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 p-md-3 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
                             <h3 class="text-center fs-6">Business</h3>
                             <p class="vsat-users">Connect 25 Users</p>
 
-                            <h5 class="fs-1 text-warning">70 
-                                <span class="fs-6">MBPS</span>
-                                <span class="down-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
-                            <h5 class="fs-1 text-warning">20 <span class="fs-6">MBPS</span>
-                                <span class="up-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
+                            <div class="speed-wrapper">
+                                <h5 class="fs-1 text-warning">70 
+                                    <span class="fs-6">MBPS</span>
+                                    <span class="down-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                                <h5 class="fs-1 text-warning text-end">20 <span class="fs-6">MBPS</span>
+                                    <span class="up-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                            </div>
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K6,006 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 p-md-3 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
                             <h3 class="text-center fs-6">Government</h3>
                             <p class="vsat-users">Connect 60 Users</p>
 
-                            <h5 class="fs-1 text-warning">100 
-                                <span class="fs-6">MBPS</span>
-                                <span class="down-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
-                            <h5 class="fs-1 text-warning">20 <span class="fs-6">MBPS</span>
-                                <span class="up-icon">
-                                    <img src="./static/img/data-plans/download.png" alt="download speed icon">
-                                </span>
-                            </h5>
+                            <div class="speed-wrapper">
+                                <h5 class="fs-1 text-warning">100 
+                                    <span class="fs-6">MBPS</span>
+                                    <span class="down-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                                <h5 class="fs-1 text-warning text-end">20 <span class="fs-6">MBPS</span>
+                                    <span class="up-icon">
+                                        <img src="./static/img/data-plans/download.png" alt="download speed icon">
+                                    </span>
+                                </h5>
+                            </div>
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K11,825 <span>Monthly</span></h5>
                         </div>
                     </div>
