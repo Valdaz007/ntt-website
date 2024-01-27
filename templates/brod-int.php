@@ -100,18 +100,45 @@
                         <h4 class="mt-2 text-dark">FAST & RELIABLE FIBER TO THE HOME GPON SERVICE</h4>
                     </div>
 
-                    <div class="next-plans">
-                        <h5 class="fs-4 mt-4 mb-4">UNLIMITED FULL DUPLEX PLANS</h5>
-                        <div class="row g-2 g-md-5 d-plans">
-                            <div class="col-6 col-md-4"><div class="gpon"></div></div>
-                            <div class="col-6 col-md-4"><div class="gpon"></div></div>
-                            <div class="col-6 col-md-4"><div class="gpon"></div></div>
-                            <div class="col-6 col-md-4"><div class="gpon"></div></div>
-                            <div class="col-6 col-md-4"><div class="gpon"></div></div>
-                            <div class="col-6 col-md-4"><div class="gpon"></div></div>
+                    <h5 class="fs-4 mt-4 mb-4 text-center">UNLIMITED FULL DUPLEX</h5>
+
+                    <div class="next-plans card-deck">
+
+                        <div class="gpon-plan card">
+                            <img src="./static/img/data-plans/dc_studio_freepic-online_gaming-crop.jpg" alt="">
+                            <h4>Experience Internet Like Never Before.</h4>
                         </div>
-                        <br>
-                        <h5>
+
+                        <div class="gpon-plan card">
+                            <h5 class="gpon-plan-name fs-3">Home</h5>
+                            <img src="./static/img/data-plans/gpon/gpon1.3.png" alt="">
+                            <h5 class="gpon-price fs-6">K500 <span>Per Month</span></h5>
+                        </div>
+
+                        <div class="gpon-plan card">
+                            <h5 class="gpon-plan-name fs-3">SME</h5>
+                            <img src="./static/img/data-plans/gpon/gpon2.3.png" alt="">
+                            <h5 class="gpon-price fs-6">K1,000 <span>Per Month</span></h5>
+                        </div>
+
+                        <div class="gpon-plan card">
+                            <h5 class="gpon-plan-name fs-3">Business</h5>
+                            <img src="./static/img/data-plans/gpon/gpon5.3.png" alt="">
+                            <h5 class="gpon-price fs-6">K2,500 <span>Per Month</span></h5>
+                        </div>
+
+                        <div class="gpon-plan card">
+                            <h5 class="gpon-plan-name fs-3">Enterprise</h5>
+                            <img src="./static/img/data-plans/gpon/gpon10.3.png" alt="">
+                            <h5 class="gpon-price fs-6">K5,000 <span>Per Month</span></h5>
+                        </div>
+                        
+                        <div class="gpon-plan card">
+                            <img src="./static/img/data-plans/freepic-online_gaming.jpg" alt="">
+                            <h4>Enjoy Your Favourite Content.</h4>
+                        </div>
+
+                        <h5 class="p-3">
                             One off installation cost will be applied and varies depending on customer
                             location from the main fiber network.
                         </h5>

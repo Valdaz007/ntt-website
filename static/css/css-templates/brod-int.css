@@ -133,89 +133,47 @@
 }
 
 .next-plans {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: .8rem;
     width: 95%;
     margin: 0 auto;
+
+    & h5 {
+        font-size: clamp(1rem, 2vw,1.2rem);
+        color: #1B262C;
+        text-align: center;
+        grid-column: 1/-1;
+    }
 }
 
-.next .d-plans .gpon {
-    height: 140px;
-    width: 100%;
+.gpon-plan {
+    background-color: transparent;
+    height: max-content;
+    padding: 10px;
+    
 
-    position: relative;
-    overflow: hidden;
+    & img {
+        width: 100%;
+        margin: 0 auto;
+        height: 40%;
+    }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .gpon-price {
+        background-color: #0072d6;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 15px;
+        color: white;
+    }
 
-    box-shadow: 5px 5px 5px black;
-}
+    &:nth-child(1) {
+        display: none;
+    }
 
-.gpon::before {
-    height: 250%;
-    width: 250%;
-    content:"";
-    background-image: url("../../img/data-plans/gpon/gpon-bg-icon.png");
-    background-color: #0072d6;
-    background-size: contain;
-    background-position: center;
-
-    position: absolute;
-
-    animation: rotate 60s linear infinite;
-    border: 1px solid black;
-}
-
-.gpon::after {
-    content:"";
-    width: 95%;
-    height: 95%;
-    background-blend-mode: color;
-    background-size: 110%;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    position: absolute;
-    transition: 1s;
-}
-
-.gpon:hover::after {
-    transform: scale(1.1);
-}
-
-.next .d-plans .col-6:hover::before {
-    animation: rotate 4s linear infinite reverse;
-}
-
-.next .d-plans .col-6:nth-child(1) .gpon::after {
-    background-image: url("../../img/data-plans/gpon/gpon1.2.png");
-}
-
-.next .d-plans .col-6:nth-child(2) .gpon::after {
-    background-image: url("../../img/data-plans/gpon/gpon2.2.png");
-}
-
-.next .d-plans .col-6:nth-child(3) .gpon::after {
-    background-image: url("../../img/data-plans/gpon/gpon3.2.png");
-}
-
-.next .d-plans .col-6:nth-child(4) .gpon::after {
-    background-image: url("../../img/data-plans/gpon/gpon4.2.png");
-}
-
-.next .d-plans .col-6:nth-child(5) .gpon::after {
-    background-image: url("../../img/data-plans/gpon/gpon5.2.png");
-}
-
-.next .d-plans .col-6:nth-child(6) .gpon::after {
-    background-image: url("../../img/data-plans/gpon/gpon10.2.png");
-}
-
-.next h5 {
-    margin: 10px 20px 10px 20px;
-    font-size: clamp(1rem, 2vw,1.2rem);
-    color: #1B262C;
-    text-align: center;
+    &:nth-child(6) {
+        display: none;
+    }
 }
 
 
@@ -312,9 +270,6 @@
 
 /*** Media Queries ************************************/
 @media(min-width: 426px){
-    .next .d-plans .gpon {
-        height: 200px;
-    }
     
     .dof-heading {    
         & > * {
@@ -325,7 +280,9 @@
     .dof .dof-plans {    
         width: 80%;
     }
+    
 
+    /*** GPON SECTION  **********************************************/
     .next-plans {
         width: 80%;
     }
@@ -361,6 +318,72 @@
         background-image: url(../../img/data-plans/warehouse.jpg); /* Image by DC Studio on Freepik */
         background-size: cover;
         background-position: center;
+    }
+    
+
+    /*** GPON SECTION  **********************************************/
+    .next-plans {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        width: 80%;
+    }
+
+    .gpon-plan {
+        padding: 10px 30px 10px 30px;
+
+        & img {
+            width: 100%;
+            margin: 0 auto;
+            height: 40%;
+        }
+    
+        .gpon-price {
+            background-color: #0072d6;
+            padding: 10px 5px 5px 5px;
+            border-radius: 5px;
+            margin-top: 15px;
+            color: white;
+        }
+    
+        &:nth-child(1) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            position: relative;
+            grid-column: 2/4;
+            grid-row: 1/3;
+            overflow: hidden;
+
+            & img {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                right: 0;
+                object-fit: cover;
+                z-index: -1;
+            }
+
+            & h4 {
+                position: absolute;
+                right: 0;
+                width: 100%;
+                top:50%;
+                transform: translateY(-50%);
+                color: white;
+                z-index: 10;
+                text-align: left;
+
+                background-color: rgba(0, 0, 50, 0.75);
+                padding: 20px;
+            }
+        }
+    
+        &:nth-child(2) {
+            grid-row: 1;
+            grid-column: 1;
+        }
     }
 }
 
@@ -400,8 +423,27 @@
 
 
     /*** GPON SECTION  **********************************************/
-    .next .d-plans .gpon {
-        min-height: clamp(200px, 18vw, 300px);
+    .gpon-plan {
+        padding: 10px 30px 10px 30px;
+
+        & img {
+            width: 75%;
+            margin: 0 auto;
+            height: 30%;
+        }
+    
+        .gpon-price {
+            background-color: #0072d6;
+            padding: 10px 5px 5px 5px;
+            border-radius: 5px;
+            margin-top: 15px;
+            color: white;
+        }
+    
+        &:nth-child(1) {
+            display: block;
+            grid-row: 1/3;
+        }
     }
 
     /*** VSAT SECTION  **********************************************/
@@ -438,5 +480,89 @@
     .vsat-content {
         grid-template-columns: repeat(4, 1fr);
         gap: 3rem;
+    }
+    
+
+    /*** GPON SECTION  **********************************************/
+    .next-plans {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1rem;
+        width: 80%;
+    }
+
+    .gpon-plan {
+    
+        &:nth-child(1) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            grid-row: 1/3;
+            grid-column: 1/4;
+            overflow: hidden;
+            grid-row: 1;
+            height: 100%;
+
+            & img {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                right: 0;
+                object-fit: cover;
+                z-index: -1;
+            }
+
+            & h4 {
+                position: absolute;
+                right: 0;
+                width: 100%;
+                top:50%;
+                transform: translateY(-50%);
+                color: white;
+                z-index: 10;
+                text-align: left;
+
+                background-color: rgba(0, 0, 50, 0.75);
+                padding: 20px;
+            }
+        }
+    
+        &:nth-child(2) {
+            grid-row: 1;
+            grid-column: 4;
+        }
+    
+        &:nth-child(6) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            grid-row: 2;
+            grid-column: 3/-1;
+            height: 100%;
+            overflow: hidden;
+
+            & img {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                right: 0;
+                object-fit: cover;
+                z-index: -1;
+            }
+
+            & h4 {
+                position: absolute;
+                width: 100%;
+                color: white;
+                text-align: right;
+                z-index: 10;
+
+                background-color: rgba(0, 0, 50, 0.75);
+                padding: 20px;
+            }
+        }
     }
 }
