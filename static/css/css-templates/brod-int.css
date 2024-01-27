@@ -355,6 +355,7 @@
 
 
 @media(min-width: 1025px){
+    /*** DOF SECTION  **********************************************/
     .dof .dof-plans {
         grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
@@ -372,10 +373,13 @@
         grid-column-end: 5;
     }
 
+
+    /*** GPON SECTION  **********************************************/
     .next .d-plans .gpon {
         min-height: clamp(200px, 18vw, 300px);
     }
 
+    /*** VSAT SECTION  **********************************************/
     .vsat-content {
         grid-template-columns: repeat(4, 1fr);
         row-gap: 1.5rem;
@@ -408,6 +412,6 @@
 @media(min-width: 1440px){
     .vsat-content {
         grid-template-columns: repeat(4, 1fr);
-        gap: 2rem;
+        gap: 3rem;
     }
 }
