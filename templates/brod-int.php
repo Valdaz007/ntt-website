@@ -121,8 +121,11 @@
                 <!-- VSAT Broadband Service Plans Section -->
                 <section class="vsat">
                     <div class="vsat-heading mb-3">
-                        <h2>VSAT INTERNET SERVICE<span><img src="./static/img/data-plans/icon/vsat.png"></span></h2>
-                        <h4 class="text-dark">CONNECT ANYWHERE IN PAPUA NEW GUINEA</h4>
+                        <div class="vsat-heading-icon">
+                            <h2>VSAT INTERNET SERVICE</h2>
+                            <img src="./static/img/data-plans/icon/vsat.png">
+                        </div>
+                        <h4 class="mt-2 text-dark">CONNECT ANYWHERE IN PAPUA NEW GUINEA</h4>
                     </div>
 
                     <div class="vsat-content card-deck">

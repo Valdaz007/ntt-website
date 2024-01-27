@@ -225,12 +225,21 @@
     padding: 15px;
     color: white;
     text-align: center;
-    
-    & h2 img {
-        width: 60px;
 
-        margin-left: 30px;
-        margin-bottom: 2px;
+    .vsat-heading-icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & h2 {
+            margin: 0;
+        }
+
+        & img {
+            width: 45px;
+            margin-left: 10px;
+        }
     }
 }
 
