@@ -123,7 +123,7 @@
                     </div>
 
                     <div class="vsat-content card-deck">
-                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-3 p-lg-6 card">
                             <h3 class="text-center fs-6 fs-md-1">Home <span class="fs-6 fw-normal">Standard</span></h3>
                             <p class="vsat-users">Connect 2 Users</p>
 
@@ -144,7 +144,7 @@
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K645 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-3 p-lg-6 card">
                             <h3 class="text-center fs-6">Home <span class="fs-6 fw-normal">Extra</span></h3>
                             <p class="vsat-users">Connect 4 Users</p>
 
@@ -165,7 +165,7 @@
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K790 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-3 p-lg-6 card">
                             <h3 class="text-center fs-6">SME <span class="fs-6 fw-normal">Standard</span></h3>
                             <p class="vsat-users">Connect 7 Users</p>
 
@@ -186,7 +186,11 @@
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K1,658 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
+                        <div class="vsat-plan card">
+                            <h5>Experience Seamless Internet from Anywhere</h5>
+                        </div>
+
+                        <div class="vsat-plan border p-2 px-md-3 p-lg-6 card">
                             <h3 class="text-center fs-6">SME <span class="fs-6 fw-normal">Extra</span></h3>
                             <p class="vsat-users">Connect 10 Users</p>
 
@@ -206,7 +210,7 @@
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K2,592 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-3 p-lg-6 card">
                             <h3 class="text-center fs-6">Business</h3>
                             <p class="vsat-users">Connect 25 Users</p>
 
@@ -226,7 +230,7 @@
                             <h5 class="mt-3 bg-warning p-1 rounded-1 text-center">K6,006 <span>Monthly</span></h5>
                         </div>
 
-                        <div class="vsat-plan border p-2 px-md-5 p-lg-6 card">
+                        <div class="vsat-plan border p-2 px-md-3 p-lg-6 card">
                             <h3 class="text-center fs-6">Government</h3>
                             <p class="vsat-users">Connect 60 Users</p>
 
