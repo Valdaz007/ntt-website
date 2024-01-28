@@ -54,19 +54,20 @@ header {
 
 .primary-nav {
     list-style: none;
+    margin: 0;
 
     display: flex;
-    gap:.8rem;
+    gap:1.3rem;
 }
 
 .primary-nav li a {
     color: whitesmoke;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 700;
     text-decoration: none;
 }
 
-@media(max-width: 35em) {
+@media(max-width: 50em) {
     .btn-nav {
         display: block;
         position: fixed;
@@ -145,9 +146,6 @@ footer nav ul li a:hover {
 }
 
 @media (min-width: 768px){
-    .header-wrapper {
-        width: 80%;
-    }
 
     .header-wrapper img {
         height: 80%;

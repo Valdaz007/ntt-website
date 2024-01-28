@@ -38,7 +38,7 @@
                 <div class="">
                     <!-- Main Product Section -->
                     <div id="prod-cat">
-                        <?php require_once "templates/web-mail.php"?>
+                        <?php require_once "templates/brod-int.php"?>
                     </div>
 
                     <!-- Side Bar Enquire Form Section -->
