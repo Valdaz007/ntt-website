@@ -35,6 +35,7 @@ function active_page($pgTitle, $page){
     </head>
 
     <body>
+        <div class="bg-info-img"></div>
         <header>
             <div class="header-wrapper">
                 <img src="./static/ntt-logo.gif" alt="">
@@ -47,6 +48,7 @@ function active_page($pgTitle, $page){
                 <nav>
                     <ul id="primary-nav" class="primary-nav" data-visible="false">
                         <li><a href="./">Home</a></li>
+                        <li><a href="./internet">Internet</a></li>
                         <li><a href="./products">Products</a></li>
                         <li><a href="./solutions">Solutions</a></li>
                         <li><a href="./contacts">Contact Us</a></li>

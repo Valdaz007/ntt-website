@@ -1,17 +1,3 @@
-main {
-    position: relative;
-
-    .bg-info-img {
-        width: 100%;
-        height:100%;
-        position: absolute;
-        background-image: url(../img/data-plans/gpon/gpon-bg-icon.avif);
-        background-size: 150px;
-        opacity: .6;
-        z-index: -1;
-    }
-}
-
 /*** Card Service <Section> **************************/
 .services-header-cont {
     background-color: var(--nttorange);
@@ -29,11 +15,11 @@ main {
     width: 95%;
     margin: 0 auto;
     margin-top: 20px;
-}
 
-.card-title {
-    font-size: clamp(1rem, 4vw, 1.2rem);
-    text-align: center;
+    .card-title {
+        font-size: clamp(1rem, 4vw, 1.2rem);
+        text-align: center;
+    }
 }
 
 .flip-card {
@@ -41,7 +27,10 @@ main {
     /* Flip Style */
     background-color: transparent;
     perspective: 1000px;
+}
 
+.service-card:hover .inner-card {
+    transform: rotateY(180deg);
 }
 
 .inner-card {
@@ -52,45 +41,43 @@ main {
     transform-style: preserve-3d;
 }
 
-.service-card:hover .inner-card {
-    transform: rotateY(180deg);
-}
-
-.card-front, .card-back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    backface-visibility: hidden;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.card-front {
-    box-shadow: 2px 2px 4px 2px #323;
-
-    & img {
-        border-radius: 0;
+.inner-card {
+    .card-front, .card-back {
+        position: absolute;
         height: 100%;
+        width: 100%;
+        backface-visibility: hidden;
+        overflow: hidden;
+        border-radius: 20px;
     }
-}
 
-.card-back {
-    background-color: rgba(51, 51, 150, 0.75);
-    color: white;
-    transform: rotateY(180deg);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    outline: 5px solid var(--nttorange);
-    box-shadow: 0px 0px 15px 2px var(--nttorange) inset;
+    .card-front {
+        box-shadow: 2px 2px 4px 2px #323;
     
-    padding: 10px;
+        & img {
+            border-radius: 0;
+            height: 100%;
+        }
+    }
 
-    .card-text {
-        font-size: clamp(.8rem, 2.5vw, 1.2rem);
-        text-align: center;
+    .card-back {
+        background-color: rgba(51, 51, 150, 0.75);
+        color: white;
+        transform: rotateY(180deg);
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        outline: 5px solid var(--nttorange);
+        box-shadow: 0px 0px 15px 2px var(--nttorange) inset;
+        
+        padding: 10px;
+    
+        .card-text {
+            font-size: clamp(.8rem, 2.5vw, 1.2rem);
+            text-align: center;
+        }
     }
 }
 
@@ -100,37 +87,39 @@ main {
     background-color: var(--nttorange);
     padding: 15px;
     color: white;
-}
 
-.soln-heading {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+    .soln-heading {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 .solution-services {
     width: 95%;
     margin: 0 auto;
-}
 
-.soln .card img {
-    height: 130px;
-    width: 100%;
-}
-
-.soln-body {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-}
-
-.soln-body h5 {
-    text-align: center;
-    font-size: 1rem;
-}
-
-.soln-body a {
-    color: blue;
+    .soln {
+        .card img {
+            height: 130px;
+            width: 100%;
+        }
+    
+        .card .soln-body {
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+    
+            & h5 {
+                text-align: center;
+                font-size: 1rem;
+            } 
+            
+            & a {
+                color: blue;
+            }
+        }
+    }
 }
 
 
@@ -149,17 +138,17 @@ main {
 .info-img-wrapper {
     display: flex;
     align-items: center;
+
+    .img-info {
+        height: clamp(200px, 30vw, 400px);
+        width: 100%;
+        background-image: url("../img/index-img/optical-fiber-installation.gif");
+        background-position: center;
+        background-size: cover;
+    }
 }
 
-.img-info {
-    height: clamp(200px, 30vw, 400px);
-    width: 100%;
-    background-image: url("../img/index-img/optical-fiber-installation.gif");
-    background-position: center;
-    background-size: cover;
-}
-
-.br-info .content-info {
+.content-info {
     height: 100%;
 
     display: flex;
@@ -170,14 +159,14 @@ main {
 
     color: white;
     font-weight: 400;
-}
 
-.info-para {
-    font-size: .8rem;
-}
-
-.btn-success {
-    background-color: yellowgreen;
+    .info-para {
+        font-size: .8rem;
+    }
+    
+    .btn-success {
+        background-color: yellowgreen;
+    }
 }
 
 
@@ -236,13 +225,13 @@ main {
     
     padding-block: 2rem;
     gap: 1rem;
-}
 
-.scroller-inner img {
-    width: clamp(85px, 15vw, 175px);
-    padding: .5rem;
-    background-color: blanchedalmond;
-    box-shadow: 0 0.5rem 1rem -.25rem rgb(30, 29, 29);
+    & img {
+        width: clamp(85px, 15vw, 175px);
+        padding: .5rem;
+        background-color: blanchedalmond;
+        box-shadow: 0 0.5rem 1rem -.25rem rgb(30, 29, 29);
+    }
 }
 
 @keyframes scroll {

@@ -6,8 +6,6 @@
 ?>
 
         <main>
-            <div class="bg-info-img"></div>
-
             <!-- Hero Section -->
             <?php require_once "includes/indexHeroCarousel.php"; ?>
 
