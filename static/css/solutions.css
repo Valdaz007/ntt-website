@@ -6,9 +6,6 @@
     box-shadow: 0px 0px 7px #0f4c81 inset;
 
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     z-index: 1;
 
     & img {
@@ -30,6 +27,7 @@
         justify-content: center;
     
         .hero-content-inner {
+            width: 95%;
             background-color: rgba(0, 0, 0, .5);
             padding: 10px;
             border-radius: 5px;
@@ -226,57 +224,41 @@
     margin-top: 10px;
 }
 
-
-
-@media (max-width: 991.98px) {
-
+@media(min-width: 769px) {
     /*** Hero Section **********************************************************/
+
     .hero {
-        height: 65vh;
-    }
 
-    .inner-hero-rel:nth-child(1) {
-        background-size: 120%;
-        background-position: center;
-    }
-}
+        & img {
+            width: 60%;
+        }
 
-@media screen and (max-width: 767.98px){
-    
-    .inner-hero-rel:nth-child(1) {
-        background-color: #0f325270;
-        background-blend-mode: multiply;
-        background-size: cover;
-    } 
-    
-    .inner-hero-rel:nth-child(2) {
-        background-image: none;
-    }
+        .hero-content {
+            right: 1rem;
+            width: 40%;
+        
+            .hero-content-inner {
+                padding: 20px;
+                text-align: center;
 
-    .hero-content {
-        height: 100%;
-        padding: 10px;
-        position: relative;
-        bottom: 75%;
-    }
+                .title {
+                    font-size: 2rem;
+                    color: rgba(0, 23, 43, 0.164);
+                    -webkit-text-stroke: 0.1rem white;
+                }
+            
+                .sub-title {
+                    font-size: clamp(.9rem, 3vw, 1.6rem);
+                    font-weight: 800;
+                    color: #ff9900;
+                    text-align: center;
+                }
 
-    .inner-hero-rel .title {
-        text-align: center;
-        color: white;
-        text-align: center;
-        -webkit-text-stroke: 0rem #ff9900;
-    }
-    
-    .inner-hero-rel .sub-title {
-        font-weight: 700;
-        color: #b3ff00;
-    }
-}
-
-@media (max-width: 575.98px) {
-
-    /*** Hero Section **********************************************************/
-    .hero {
-        height: 50vh;
+                & a {
+                    text-decoration: none;
+                    margin-top: 10px;
+                }
+            }
+        }
     }
 }
