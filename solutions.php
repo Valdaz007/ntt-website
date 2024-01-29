@@ -7,16 +7,13 @@
 
         <main>
             <section class="hero">
-                <div class="row hero-rel">
-                    <div class="col-12 col-md-6 inner-hero-rel">
-                    </div>
-            
-                    <div class="col-12 col-md-6 inner-hero-rel" >
-                        <div class="hero-content">
-                            <h2 class="title">WANT THE BEST IT SOLUTION FOR YOUR BUSINESS!</h2>
-                            <h2 class="sub-title">CONTACT US TODAY FOR A CONSULTATION</h2><br>
-                            <a class="btn btn-primary" type="button" href="./contacts">CONTACT US NOW</a>
-                        </div>
+                <img src="./static/img/hero-img/soluntions-hero02.png" alt="">
+        
+                <div class="hero-content">
+                    <div class="hero-content-inner">
+                        <h2 class="title">THE BEST IT SOLUTION FOR YOUR BUSINESS!</h2>
+                        <h3 class="sub-title">CONTACT US TODAY FOR A CONSULTATION</h3>
+                        <a class="btn-sm btn-primary" type="button" href="./contacts">CONTACT US NOW</a>
                     </div>
                 </div>
             </section><br>

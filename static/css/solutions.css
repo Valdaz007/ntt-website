@@ -1,62 +1,63 @@
 /*** Hero Section **********************************************************/
 
 .hero {
-    height: 75vh;
-
+    height: clamp(400px, 37vw, 650px);
+    background-color: white;
     box-shadow: 0px 0px 7px #0f4c81 inset;
-    border-radius: 0px 0px 20px 20px;
 
-    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    z-index: 1;
+
+    & img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .hero-content {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        .hero-content-inner {
+            background-color: rgba(0, 0, 0, .5);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+
+            .title {
+                font-size: clamp(1.4rem, 4vw, 2rem);
+                text-align: center;
+                color: white;
+                text-align: center;
+                /* -webkit-text-stroke: 0.05rem white; */
+            }
+        
+            .sub-title {
+                font-size: clamp(.9rem, 3vw, 1.6rem);
+                font-weight: 800;
+                color: #ff9900;
+                text-align: center;
+            }
+
+            & a {
+                text-decoration: none;
+                margin-top: 10px;
+            }
+        }
+    }
 }
 
-.hero-rel {
-    height: 100%;
-    margin: 0 auto;
-}
-
-.inner-hero-rel:nth-child(1) {
-    height: 100%;
-
-    background-image: url("../img/hero-img/soluntions-hero02.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    overflow: hidden;
-}
-
-.inner-hero-rel:nth-child(2) {
-    height: 100%;
-
-    background-image: url("../img/hero-img/bg1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.hero-content {
-    height: 100%;
-    padding: 10px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.inner-hero-rel .title {
-    font-size: clamp(1.2rem, 5vw, 2.2rem);
-    text-align: center;
-    color: #ed656300;
-    text-align: center;
-    -webkit-text-stroke: 0.1rem #ff9900;
-}
-
-.inner-hero-rel .sub-title {
-    font-size: clamp(1.2rem, 3vw, 1.7rem);
-    font-weight: 700;
-    color: #ff9900;
-    text-align: center;
-}
 
 /*** Content Section **********************************************************/
 
