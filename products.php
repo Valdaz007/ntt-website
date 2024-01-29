@@ -19,22 +19,6 @@
             </section>
 
             <div class="content">
-                <!-- Product Services  Links -->
-                <!-- <nav class="row navbar navbar-expand-md navbar-light">
-                    <div class="container">
-                        
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-left mb-2 mb-md-0">
-                                <li class="nav-item"><button class="nav-link btn" id="brod-int">Broadband Internet</button></li>
-                                <li class="nav-item"><button class="nav-link btn" id="web-mail">Email & Website Packages</button></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav><br> -->
-                
                 <div class="">
                     <!-- Main Product Section -->
                     <div id="prod-cat">
@@ -64,18 +48,4 @@
             <br>
         </main>
 
-        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-        <script>
-            $(document).ready(function() {
-                $("#web-mail").click(function() {
-                    console.log("Confirm")
-                    $("#prod-cat").load("templates/web-mail.php");
-                });
-                
-                $("#brod-int").click(function() {
-                    console.log("Confirm")
-                    $("#prod-cat").load("templates/brod-int.php");
-                });
-            });
-        </script>
 <?php require_once "includes/footer.php"; ?>
