@@ -12,6 +12,7 @@
                     <h5 class="fs-4 mt-4 mb-4 text-center">UNLIMITED FULL DUPLEX</h5>
 
                     <div class="dof-plans card-deck">
+                        <!-- DOF 10 MBPS -->
                         <div class="border p-2 p-md-4 card m-md-1 dof-plan">
                             <h5 class="text-start fs-5 fw-bold text-dark card-title">SME</h5>
                             
@@ -19,10 +20,12 @@
                                 10<span class="fs-5 fw-normal ps-1">MBPS</span>
                             </h5>
                             
-                            <h5 class="text-start fs-2 mt-2 text-warning">K5,000<br> 
-                                <span class="fs-5 fw-light text-warning">Per Month</span>
-                            </h5>
-                            <h5 class="text-start fs-6 fw-normal mt-2 text-warning">
+                            <div class="dof-price">
+                                <h5 class="text-start fs-2 mt-2 text-warning">K5,000<br> 
+                                    <span class="fs-5 fw-light text-warning">Per Month</span>
+                                </h5>
+                            </div>
+                            <h5 class="text-start fs-6 fw-normal mt-2 text-light">
                                 Suitable for large businesses with 20 plus personals
                                 having moderate internet usage.
                             </h5>
@@ -30,6 +33,8 @@
 
                         <div class="border p-2 p-md-4 card m-md-1 dof-plan dof-img"></div>
 
+                        
+                        <!-- DOF 20 MBPS -->
                         <div class="border p-2 p-md-4 card m-md-1 dof-plan">
                             <h5 class="text-start fs-5 fw-bold card-title">BUSINESS</h5>
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
@@ -52,15 +57,18 @@
                             <h2 class="text-center">Lightning Fast Internet Straight to Your Doorstep</h2>
                         </div>
 
+                        <!-- DOF 50 MBPS -->
                         <div class="border p-2 p-md-4 card m-md- dof-plan">
                             <h5 class="text-start fs-5 fw-bolder card-title">ENTERPRISE</h5>
                             <h5 class="text-start fw-bold mt-1 text-light" style="font-size: clamp(3rem, 5vw, 5rem);">
                                 50<span class="fs-5 fw-normal ps-1">MBPS</span>
                             </h5>
-                            <h5 class="text-start fs-2 mt-2 text-warning">K25,000<br> 
-                                <span class="fs-4 fw-light text-warning">Per Month</span>
-                            </h5>
-                            <h5 class="text-start fs-6 fw-normal mt-2 text-warning">
+                            <div class="dof-price">
+                                <h5 class="text-start fs-2 mt-2 text-warning">K25,000<br> 
+                                    <span class="fs-4 fw-light text-warning">Per Month</span>
+                                </h5>
+                            </div>
+                            <h5 class="text-start fs-6 fw-normal mt-2 text-light">
                                 Suitable for large businesses with 80 plus personals
                                 having moderate internet usage.
                             </h5>
@@ -74,7 +82,7 @@
                                 50<span class="fs-5 fw-normal ps-1">MBPS</span>
                             </h5>
                             <h5 class="text-start fs-2 mt-2 text-warning">Contact Us</h5>
-                            <h5 class="text-start fs-6 fw-normal mt-2 text-warning">
+                            <h5 class="text-start fs-6 fw-normal mt-2 text-light">
                                 Above 50 MBPS contact us for pricing.
                             </h5>
                         </div>
