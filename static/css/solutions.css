@@ -60,72 +60,73 @@
 /*** Content Section **********************************************************/
 
 .content {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.services h2 {
-    display: flex;
-    align-items: center;
-    margin: 0;
-}
-
-.services h2 img {
-    height: 60px;
-
-    margin-left: 30px;
-    margin-bottom: 2px;
-}
-
-
-/*** Service Cards *******************************************/
-.services .micard {
-    height: 100%;
-    color: rgb(0, 23, 43);
-    box-shadow: 2px 2px 2px #0f4c81, -2px -2px 2px #0f4c81;
-    overflow: hidden;
-}
-
-.micard-body {
-
-    font-weight: 450;
-    word-spacing: 1px;
-    justify-content: center;
-}
-
-.micard-img {
     width: 100%;
-    height: 200px;
-
-    background-image: url("../img/broad-img3.1 - 300x300.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     
-    box-shadow: 0 0 10px rgba(0, 136, 255, 0.5);
-    overflow: hidden;
+    .service-heading {
+        background-color: var(--nttorange);
+        padding: 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & h2 {
+            margin: 0;
+        }
+
+        & img {
+            width: 40px;
+            margin: 0;
+            margin-left: 10px;
+        }
+    }
+
+    .services {
+        width: 95%;
+        margin: 0 auto;
+    }
 }
 
 
 /*** Cloud Services *******************************************/
-#cloud .micard {
-    background-color: #71c8d592;
+#cloud .micard-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8rem;
+
+    .micard {
+        flex: 1 0 auto;
+    }
 }
 
-.mc1-1 .micard-img {
-    background-image: url("../img/soln/cloudshosting.png");
-    background-size: contain;
+.micard {
+    .micard-img {
+        height: clamp(150px, 20vw, 300px);
+        background-size: cover;
+        position: relative;
+
+        & img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &:nth-child(3) {
+        grid-column: 1/-1;
+    }
 }
 
-.mc1-2 .micard-img {
-    background-image: url("../img/soln/application.png");
-    background-size: contain;
-}
+.micard .micard-body {
+    padding: 10px;
+    
+    & h4 {
+        font-size: 1rem;
+    }
 
-.mc1-3 .micard-img {
-    background-image: url("../img/soln/virtualization.png");
-    background-size: contain;
+    & p {
+        font-size: .8rem;
+    }
 }
 
 
@@ -181,8 +182,6 @@
     background-size: contain;
 }
 
-
-
 /*** Side Bar Section *********************************************************/
 
 .side-navbar {
@@ -224,6 +223,12 @@
     margin-top: 10px;
 }
 
+@media(min-width: 426px) {
+    .content .services {
+        width: 80%;
+    }
+}
+
 @media(min-width: 769px) {
     /*** Hero Section **********************************************************/
 
@@ -246,19 +251,21 @@
                     color: rgba(0, 23, 43, 0.164);
                     -webkit-text-stroke: 0.1rem white;
                 }
-            
-                .sub-title {
-                    font-size: clamp(.9rem, 3vw, 1.6rem);
-                    font-weight: 800;
-                    color: #ff9900;
-                    text-align: center;
-                }
-
-                & a {
-                    text-decoration: none;
-                    margin-top: 10px;
-                }
             }
+        }
+    }
+
+
+    /*** Cloud Services *******************************************/
+    #cloud .micard-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .micard {
+    
+        &:nth-child(3) {
+            grid-column: 3;
         }
     }
 }
