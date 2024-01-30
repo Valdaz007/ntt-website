@@ -89,18 +89,18 @@
 
 
 /*** Cloud Services *******************************************/
-#cloud .micard-wrapper {
+#cloud .cloud-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: .8rem;
 
-    .micard {
+    .cloud {
         flex: 1 0 auto;
     }
 }
 
-.micard {
-    .micard-img {
+.cloud {
+    .cloud-img {
         height: clamp(150px, 20vw, 300px);
         background-size: cover;
         position: relative;
@@ -117,7 +117,7 @@
     }
 }
 
-.micard .micard-body {
+.cloud .cloud-body {
     padding: 10px;
     
     & h4 {
@@ -131,30 +131,94 @@
 
 
 /*** NETWORK SERVICES ******************************************/
-#netw .micard {
-    background-color: rgba(255, 137, 90, 0.25);
+#netw {
+    background-color: white;
+    .netw-wrapper {
+        width: 95%;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:.8rem;
+
+        .netw-card-img {
+            position: relative;
+            display: none;
+
+            & img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .netw {
+            border: 3px dashed;
+            border-radius: 5px;
+            padding: 10px;
+            position: relative;
+            flex: 1 0 auto;
+
+            .netw-img {
+                & img {
+                    width: 25%;
+                }
+            }
+
+            .netw-body {
+
+                & h4 {
+                    width: 60%;
+                    font-size: clamp(1rem, 3vw, 1.6rem);
+                }
+
+                & p {
+                    font-size: clamp(.8rem, 3vw, 1rem);
+                    padding: 0;
+                }
+
+                & p span {
+                    display: none;
+                }
+            }
+
+            &:nth-child(1) {
+                background-color: #ff990060;
+                border-color: #ff9900b9;
+
+                color: #ae6300;
+            }
+
+            &:nth-child(2) {
+                background-color: #0088ff60;
+                border-color: #0088ffb9;
+
+                color: #005daf;
+            }
+
+            &:nth-child(3) {
+                background-color: #00ff6a60;
+                border-color: #00ff6ab9;
+
+                color: #007d34;
+            }
+
+            &:nth-child(4) {
+                background-color: #bf00ff60;
+                border-color: #bf00ffb9;
+
+                color: #630084;
+            }
+        }
+    }
 }
 
-.mc2-1 .micard-img {
-    background-image: url("../img/soln/soln-procure.jpg");
-    background-blend-mode: multiply;
+.rtsw-head {
+    display: none;
 }
 
-.mc2-2 .micard-img {
-    background-image: url("../img/soln/prof-image2.jpg");
-    background-blend-mode: multiply;
-}
-
-.mc2-3 .micard-img {
-    background-image: url("../img/soln/sw&rrt.jpg");
-    background-blend-mode: multiply;
-}
-
-.mc2-4 .micard-img {
-    background-image: url("../img/soln/netmng.jpg");
-    background-blend-mode: multiply;
-    background-position: bottom;
-}
 
 /*** PROCURE SERVICES ******************************************/
 
@@ -227,6 +291,80 @@
     .content .services {
         width: 80%;
     }
+
+    /*** NETW INFRASTRUCTURE **************************************/
+
+    #netw .netw-wrapper {
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 644px) {
+    /*** NETW INFRASTRUCTURE **************************************/
+
+    #netw .netw-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 150px);
+
+        .netw-card-img {
+            display: block;
+            border: none;
+        }
+
+        .netw {
+
+            .netw-body {
+                & h4 {
+                    width: 100%;
+                }
+            }
+
+            &:nth-child(5) {
+                border: 2px solid black;
+                grid-row: 1;
+                grid-column: 1;
+            }
+
+            &:nth-child(2) {
+                grid-row: 1/3;
+                grid-column: 2;
+            }
+
+            &:nth-child(6) {
+                border: 2px solid black;
+                grid-row: 3;
+                grid-column: 2;
+            }
+
+            &:nth-child(1) {
+                grid-row: 2/4;
+                grid-column: 1;
+            }
+
+            &:nth-child(7) {
+                border: 2px solid black;
+                grid-row: 1;
+                grid-column: 3;
+            }
+
+            &:nth-child(3) {
+                grid-row: 2/4;
+                grid-column: 3;
+            }
+
+            &:nth-child(4) {
+                grid-row: 4/6;
+                grid-column: 1;
+            }
+
+            &:nth-child(8) {
+                border: 2px solid black;
+                grid-row: 4/6;
+                grid-column: 2/4;
+            }
+        }
+    }
 }
 
 @media(min-width: 769px) {
@@ -257,15 +395,24 @@
 
 
     /*** Cloud Services *******************************************/
-    #cloud .micard-wrapper {
+    #cloud .cloud-wrapper {
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
 
-    .micard {
+    .cloud {
     
         &:nth-child(3) {
             grid-column: 3;
         }
+    }
+}
+
+@media(min-width: 1025px) {
+    /*** NETW INFRASTRUCTURE **************************************/
+
+    #netw .netw-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
     }
 }

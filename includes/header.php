@@ -18,6 +18,11 @@ function active_page($pgTitle, $page){
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+        <!-- META TAG FOR CLEARING TAGS -->
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+
         <!-- Tab Icon -->
         <link rel="icon" type="image/png" href="./static/img/ntt-webtitle-icon.png"/>
 

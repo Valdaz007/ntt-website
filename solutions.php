@@ -13,7 +13,7 @@
                     <div class="hero-content-inner">
                         <h2 class="title">THE BEST IT SOLUTION FOR YOUR BUSINESS!</h2>
                         <h3 class="sub-title">CONTACT US TODAY FOR A CONSULTATION</h3>
-                        <a class="btn-sm btn-primary" type="button" href="./contacts">CONTACT US NOW</a>
+                        <a class="btn-sm btn-warning text-light" type="button" href="./contacts">CONTACT US NOW</a>
                     </div>
                 </div>
             </section>
@@ -26,42 +26,43 @@
                 </div>
 
                 <section class="services mb-5 mt-3" id="cloud"> 
-                    <div class="micard-wrapper card-deck">
-                        <div class="micard card">
-                            <div class="micard-img">
+                    <div class="cloud-wrapper card-deck">
+                        <div class="cloud card">
+                            <div class="cloud-img">
                                 <img src="./static/img/soln/cloudshosting.png" alt="cloud hosting">
                             </div>
-                            <div class="micard-body">
+                            <div class="cloud-body">
                                 <h4>Website & Email</h4>
                                 <p>
-                                    Attract potential customers by looking more professional with a company 
-                                    branded email and 
-                                    expand your company’s influence online with a company website showcasing 
-                                    your products and services.
+                                    Attract potential customers by looking more professional and trust worthy. 
+                                    As such a company branded email and website will go a long way in improving your 
+                                    business brand hence bringing in new customers. Expand your company’s influence online 
+                                    while looking professional.
                                 </p>
                             </div>
                         </div>
                         
-                        <div class="micard card">
-                            <div class="micard-img">
+                        <div class="cloud card">
+                            <div class="cloud-img">
                                 <img src="./static/img/soln/application.png" alt="cloud application">
                             </div>
-                            <div class="micard-body">
+                            <div class="cloud-body">
                                 <h4>Application</h4>
                                 <p>
                                     Improve your business performance and productivity by running your business 
-                                    application on the cloud. With our help your business application that’s running 
+                                    application on the cloud. 
+                                    <span>With our help your business application that’s running 
                                     on your premise with many risks such as data loss, downtime and hardware faults 
-                                    can be mitigated by hosting the application on a cloud.
+                                    can be mitigated by hosting the application on a cloud.</span>
                                 </p>
                             </div>
                         </div>
                         
-                        <div class="micard card">
-                            <div class="micard-img">
+                        <div class="cloud card">
+                            <div class="cloud-img">
                                 <img src="./static/img/soln/virtualization.png" alt="virtualization">
                             </div>
-                            <div class="micard-body">
+                            <div class="cloud-body">
                                 <h4>Virtualization</h4>
                                 <p>
                                     We aim to be at the forefront of technological innovation, enabling organizations to 
@@ -80,68 +81,86 @@
                     <img src="./static/img/net-infras-icon2.png" alt="networking icon">
                 </div>
 
-                <section class="row g-3 services mb-5" id="netw">
-                    <div class="col-12 col-md-6">
-                        <div class="micard mc2-1">
-                            <div class="micard-img"></div>
-                            <div class="micard-body p-2">
-                                <h4>WiFi Deployment</h4>
+                <section class="pb-5 pt-3" id="netw">
+                    <div class="netw-wrapper card-deck">
+                        <div class="netw card">
+                            <div class="netw-img mb-3">
+                                <img src="./static/img/soln/ico-wifi.png" alt="">
+                            </div>
+                            <div class="netw-body">
+                                <h4>Wi-Fi Deployment</h4>
                                 <p>
                                     Experience seamless connectivity with our cutting-edge WIFI Deployment services! 
-                                    Say goodbye to dead zones and slow internet speeds. Whether you need to cover a 
+                                    <span>Say goodbye to dead zones and slow internet speeds. Whether you need to cover a 
                                     small office space or a large commercial complex, our expert team will design and 
                                     install a robust WIFI network tailored to your specific needs. Enjoy fast, reliable, 
-                                    and secure internet access from every corner of your space.
+                                    and secure internet access from every corner of your space.</span>
                                 </p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-12 col-md-6">
-                        <div class="micard mc2-2">
-                            <div class="micard-img"></div>
-                            <div class="micard-body p-2">
+                        <div class="netw">
+                            <div class="netw-img mb-3">
+                                <img src="./static/img/soln/ico-cable.png" alt="">
+                            </div>
+                            <div class="netw-body">
                                 <h4>Structured Cabling</h4>
                                 <p>
-                                    Experience enhanced efficiency, improved communication, and reduced downtime with 
-                                    our industry-leading cabling solutions. Whether it's for your office, data center, 
+                                    Experience improved communication & low downtime with 
+                                    our industry-leading cabling solutions. <span>Whether it's for your office, data center, 
                                     or campus, trust us to deliver a reliable and organized network that empowers your 
                                     business to thrive. Elevate your connectivity to new heights with our trusted 
-                                    Structured Cabling services today!
+                                    Structured Cabling services today!</span>
                                 </p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-12 col-sm-6">
-                        <div class="mc2-3 micard">
-                            <div class="micard-img"></div>
-                            <div class="micard-content p-2">
-                                <h4>Routing & Switching</h4>
+                        <div class="netw">
+                            <div class="netw-img mb-3">
+                                <img src="./static/img/soln/ico-rtsw.png" alt="">
+                            </div>
+                            <div class="netw-body">
+                                <h4>Routing <span class="rtsw-head">|</span> Switching</h4>
                                 <p>
-                                    Stay ahead of the competition with a robust and agile network infrastructure that 
-                                    ensures seamless data flow, heightened security, and optimal performance. 
-                                    Our team of skilled engineers will tailor a customized Routing & Switching setup 
+                                    Stay ahead with a robust and agile computer network that 
+                                    ensures seamless data flow & maxed performance. 
+                                    <span>Our team of skilled engineers will tailor a customized Routing & Switching setup 
                                     to match your specific requirements, enabling faster data transfer, reduced latency, 
-                                    and improved user experience.
+                                    and improved user experience.</span>
                                 </p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-12 col-sm-6">
-                        <div class="mc2-4 micard">
-                            <div class="micard-img"></div>
-                            <div class="micard-content p-2">
+                        <div class="netw">
+                            <div class="netw-img mb-3">
+                                <img src="./static/img/soln/ico-netwmng.png" alt="">
+                            </div>
+                            <div class="netw-body">
                                 <h4>Network Management</h4>
                                 <p>
                                     Take control of your network like never before with our comprehensive Network Management 
-                                    services! Our expert team will provide you with a powerful suite of tools and technologies 
+                                    services! <span>Our expert team will provide you with a powerful suite of tools and technologies 
                                     to efficiently monitor, optimize, and secure your network infrastructure. Gain real-time 
                                     insights into network performance, proactively identify and resolve issues, and ensure peak 
-                                    efficiency at all times.
+                                    efficiency at all times.</span>
                                 </p>
                             </div>
+                        </div>
+
+                        <div class="netw netw-card-img card">
+                            <img src="./static/img/soln/netw-wifi.jpg" alt="" class="">
+                        </div>
+
+                        <div class="netw netw-card-img card">
+                            <img src="./static/img/soln/netw-cabling.jpg" alt="" class="">
+                        </div>
+
+                        <div class="netw netw-card-img card">
+                            <img src="./static/img/soln/netw-rtsw.jpg" alt="" class="">
+                        </div>
+
+                        <div class="netw netw-card-img card">
+                            <img src="./static/img/soln/netw-manage.jpg" alt="" class="">
                         </div>
                     </div>
                 </section>
