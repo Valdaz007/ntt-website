@@ -88,10 +88,10 @@
                                 <img src="./static/img/soln/ico-wifi.png" alt="">
                             </div>
                             <div class="netw-body">
-                                <h4>Wi-Fi Deployment</h4>
+                                <h4>Wi-Fi <br>Deployment</h4>
                                 <p>
                                     Experience seamless connectivity with our cutting-edge WIFI Deployment services! 
-                                    <span>Say goodbye to dead zones and slow internet speeds. Whether you need to cover a 
+                                    <span>Whether you need to cover a 
                                     small office space or a large commercial complex, our expert team will design and 
                                     install a robust WIFI network tailored to your specific needs. Enjoy fast, reliable, 
                                     and secure internet access from every corner of your space.</span>
@@ -104,7 +104,7 @@
                                 <img src="./static/img/soln/ico-cable.png" alt="">
                             </div>
                             <div class="netw-body">
-                                <h4>Structured Cabling</h4>
+                                <h4>Structured <br>Cabling</h4>
                                 <p>
                                     Experience improved communication & low downtime with 
                                     our industry-leading cabling solutions. <span>Whether it's for your office, data center, 
@@ -120,7 +120,7 @@
                                 <img src="./static/img/soln/ico-rtsw.png" alt="">
                             </div>
                             <div class="netw-body">
-                                <h4>Routing <span class="rtsw-head">|</span> Switching</h4>
+                                <h4>Routing <span class="rtsw-head">|</span><br> Switching</h4>
                                 <p>
                                     Stay ahead with a robust and agile computer network that 
                                     ensures seamless data flow & maxed performance. 
@@ -136,12 +136,12 @@
                                 <img src="./static/img/soln/ico-netwmng.png" alt="">
                             </div>
                             <div class="netw-body">
-                                <h4>Network Management</h4>
+                                <h4>Network <br>Management</h4>
                                 <p>
                                     Take control of your network like never before with our comprehensive Network Management 
                                     services! <span>Our expert team will provide you with a powerful suite of tools and technologies 
                                     to efficiently monitor, optimize, and secure your network infrastructure. Gain real-time 
-                                    insights into network performance, proactively identify and resolve issues, and ensure peak 
+                                    insights into network performance and ensure peak 
                                     efficiency at all times.</span>
                                 </p>
                             </div>

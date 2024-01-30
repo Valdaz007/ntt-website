@@ -170,7 +170,7 @@
             .netw-body {
 
                 & h4 {
-                    width: 60%;
+                    width: 75%;
                     font-size: clamp(1rem, 3vw, 1.6rem);
                 }
 
@@ -413,6 +413,32 @@
 
     #netw .netw-wrapper {
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 220px);
+        gap: 2rem;
+
+        .netw {
+            .netw-body {
+                & p span {
+                    display: inline;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    /*** NETW INFRASTRUCTURE **************************************/
+
+    #netw .netw-wrapper {
+        grid-template-rows: repeat(5, 200px);
         gap: 3rem;
+    }
+}
+
+@media(min-width: 1440px) {
+    /*** NETW INFRASTRUCTURE **************************************/
+
+    #netw .netw-wrapper {
+        grid-template-rows: repeat(5, 170px);
     }
 }
