@@ -232,23 +232,28 @@
                 </section>
                 
                 <!-- Enquire Form - SIDEBAR -->
-                <aside class="side-navbar">
-                    <div class="sticky-box">
-                        <form action="send.php" method="post" class="enquire-form">
-                            <h4>Enquire Now</h4>
-                            <hr>
-                            <input type ="text" name="page" value="solutions" style="display:none">
-                            <input type ="text" name="subject" value="Solutions Enquiry" style="display:none">
-                            <input class="form-control soln-input" type="text" name="name" placeholder="Name" required>
-                            <input class="form-control soln-input" type="email" name="email" placeholder="Email" required>
-                            <input class="form-control soln-input" type="text" name="phone" placeholder="Phone">
-                            <textarea class="form-control soln-input" rows="4" type = "text" name="message" placeholder="Message" required></textarea>
-                            <input class="btn btn-primary soln-input" type="submit" name="send">
-                        </form>
-                        <br>
-                        <a id="top" type="button" class="btn btn-warning" href="#">Top</a>
+                <div class="contact-location">
+                    <div class="contact-locate-wrapper">
+                        <div class="enquiry">
+                            <form action="send.php" method="post" class="enquire-form">
+                                <h4>Enquire Now</h4>
+                                <hr>
+                                <input type ="text" name="page" value="solutions" style="display:none">
+                                <input type ="text" name="subject" value="Solutions Enquiry" style="display:none">
+                                <input class="form-control soln-input" type="text" name="name" placeholder="Name" required>
+                                <input class="form-control soln-input" type="email" name="email" placeholder="Email" required>
+                                <input class="form-control soln-input" type="text" name="phone" placeholder="Phone">
+                                <textarea class="form-control soln-input" rows="4" type = "text" name="message" placeholder="Message" required></textarea>
+                                <input class="btn btn-primary soln-input" type="submit" name="send">
+                            </form>
+                            <!-- <a id="top" type="button" class="btn btn-warning" href="#">Top</a> -->
+                        </div>
+
+                        <div class="locate card">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4893.692516920343!2d147.1978237!3d-9.4694294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x69023789d632be87%3A0x951d70aadf93a0a4!2sNext%20Town%20Technology%20Ltd!5e1!3m2!1sen!2spg!4v1693281245276!5m2!1sen!2spg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
-                </aside>
+                </div>
             </div>
         </main>
 

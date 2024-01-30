@@ -246,25 +246,23 @@
     background-size: contain;
 }
 
-/*** Side Bar Section *********************************************************/
-
-.side-navbar {
+/*** Enquiry Section *********************************************************/
+.contact-location {
+    background-color: whitesmoke;
     padding: 10px;
 }
 
-.sticky-box {
-    position: sticky;
-    top: 100px;
+.contact-locate-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .locate {
+        display: none;
+    }
 }
 
 .enquire-form {
-    width: 95%;
-    margin: 0 auto;
-
     padding: 10px;
 
     background-color: #ff9900;
@@ -297,6 +295,34 @@
     #netw .netw-wrapper {
         width: 80%;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+    /*** ENQUIRY SECTION **************************************/
+
+    .contact-locate-wrapper {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        height: min-content;
+
+        .enquiry {
+            
+            .enquire-form {
+                height: 100%;
+            }
+        }
+
+        .locate {
+            display: block;
+            overflow: hidden;
+
+            & iframe {
+                height: 100%;
+            }
+        }
     }
 }
 
