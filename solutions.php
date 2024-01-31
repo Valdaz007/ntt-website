@@ -174,7 +174,7 @@
 
                 <section class="mb-5" id="procure">
                     <div class="procure-hero">
-                        <img src="./static/img/soln/procure-hero.jpg" alt="">
+                        <img src="./static/img/soln/procure-hero.avif" alt="">
                     </div>
 
                     <div class="procure-wrapper">
