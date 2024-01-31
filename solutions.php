@@ -22,14 +22,14 @@
                 <!-- CLOUD HOSTING -->
                 <div class="service-heading">
                     <h2>CLOUD HOSTING</h2>
-                    <img src="./static/img/cloud.png" alt="cloud icon">
+                    <img src="./static/img/soln/service-ico-cloud.avif" alt="cloud icon">
                 </div>
 
                 <section class="services mb-5 mt-3" id="cloud"> 
                     <div class="cloud-wrapper card-deck">
                         <div class="cloud card">
                             <div class="cloud-img">
-                                <img src="./static/img/soln/cloudshosting.png" alt="cloud hosting">
+                                <img src="./static/img/soln/cloud-host.avif" alt="cloud hosting">
                             </div>
                             <div class="cloud-body">
                                 <h4>Website & Email</h4>
@@ -44,7 +44,7 @@
                         
                         <div class="cloud card">
                             <div class="cloud-img">
-                                <img src="./static/img/soln/application.png" alt="cloud application">
+                                <img src="./static/img/soln/cloud-apps.avif" alt="cloud application">
                             </div>
                             <div class="cloud-body">
                                 <h4>Application</h4>
@@ -60,7 +60,7 @@
                         
                         <div class="cloud card">
                             <div class="cloud-img">
-                                <img src="./static/img/soln/virtualization.png" alt="virtualization">
+                                <img src="./static/img/soln/cloud-virt.avif" alt="virtualization">
                             </div>
                             <div class="cloud-body">
                                 <h4>Virtualization</h4>
@@ -78,14 +78,15 @@
                 <!-- NETWORK INFRASTRUCTURE -->
                 <div class="service-heading">
                     <h2>NETWORK INFRASTRUCTURE</h2>
-                    <img src="./static/img/net-infras-icon2.png" alt="networking icon">
+                    <img src="./static/img/soln/service-ico-netw.avif" alt="networking icon">
                 </div>
 
                 <section class="pb-5 pt-3" id="netw">
                     <div class="netw-wrapper card-deck">
+
                         <div class="netw card">
                             <div class="netw-img mb-3">
-                                <img src="./static/img/soln/ico-wifi.png" alt="">
+                                <img src="./static/img/soln/ico-wifi.avif" alt="">
                             </div>
                             <div class="netw-body">
                                 <h4>Wi-Fi <br>Deployment</h4>
@@ -101,7 +102,7 @@
 
                         <div class="netw">
                             <div class="netw-img mb-3">
-                                <img src="./static/img/soln/ico-cable.png" alt="">
+                                <img src="./static/img/soln/ico-cable.avif" alt="">
                             </div>
                             <div class="netw-body">
                                 <h4>Structured <br>Cabling</h4>
@@ -117,7 +118,7 @@
 
                         <div class="netw">
                             <div class="netw-img mb-3">
-                                <img src="./static/img/soln/ico-rtsw.png" alt="">
+                                <img src="./static/img/soln/ico-rtsw.avif" alt="">
                             </div>
                             <div class="netw-body">
                                 <h4>Routing <span class="rtsw-head">|</span><br> Switching</h4>
@@ -133,7 +134,7 @@
 
                         <div class="netw">
                             <div class="netw-img mb-3">
-                                <img src="./static/img/soln/ico-netwmng.png" alt="">
+                                <img src="./static/img/soln/ico-netwmng.avif" alt="">
                             </div>
                             <div class="netw-body">
                                 <h4>Network <br>Management</h4>
@@ -148,19 +149,19 @@
                         </div>
 
                         <div class="netw netw-card-img card">
-                            <img src="./static/img/soln/netw-wifi.jpg" alt="" class="">
+                            <img src="./static/img/soln/netw-wifi.avif" alt="" class="">
                         </div>
 
                         <div class="netw netw-card-img card">
-                            <img src="./static/img/soln/netw-cabling.jpg" alt="" class="">
+                            <img src="./static/img/soln/netw-cabling.avif" alt="" class="">
                         </div>
 
                         <div class="netw netw-card-img card">
-                            <img src="./static/img/soln/netw-rtsw.jpg" alt="" class="">
+                            <img src="./static/img/soln/netw-rtsw.avif" alt="" class="">
                         </div>
 
                         <div class="netw netw-card-img card">
-                            <img src="./static/img/soln/netw-manage.jpg" alt="" class="">
+                            <img src="./static/img/soln/netw-manage.avif" alt="" class="">
                         </div>
                     </div>
                 </section>
@@ -168,7 +169,7 @@
                 <!-- PROCUREMENT SERVICES -->
                 <div class="service-heading">
                     <h2>PROCUREMENT SERVICE</h2>
-                    <img src="./static/img/procure-icon2.png" alt="procure icon">
+                    <img src="./static/img/soln/service-ico-proc.avif" alt="procure icon">
                 </div>
 
                 <section class="mb-5" id="procure">
@@ -220,15 +221,15 @@
                         </div>
 
                         <div class="procure">
-                            <img src="./static/img/soln/procure-device.jpg" alt="">
+                            <img src="./static/img/soln/procure-device.avif" alt="">
                         </div>
 
                         <div class="procure">
-                            <img src="./static/img/soln/procure-custom.jpg" alt="">
+                            <img src="./static/img/soln/procure-custom.avif" alt="">
                         </div>
 
                         <div class="procure">
-                            <img src="./static/img/soln/procure-infrast.jpg" alt="">
+                            <img src="./static/img/soln/procure-infrast.avif" alt="">
                         </div>
                     </div>
                 </section>
