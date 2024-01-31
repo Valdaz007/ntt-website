@@ -171,66 +171,68 @@
                     <img src="./static/img/procure-icon2.png" alt="procure icon">
                 </div>
 
-                <section class="row g-3 services mb-5" id="procure">
-                    <div class="col-12 col-md-6">
-                        <div class="mc3-1 micard">
-                            <div class="micard-img"></div>
-                            <div class="micard-body p-2">
-                                <h4>Enterprice Network Devices</h4>
-                                <p>
-                                    A robust and efficient network is the backbone of any successful enterprise.
-                                    Our procurement service for cutting-edge devices is designed to elevate your organization's
-                                    connectivity, security, and overall performance.
+                <section class="mb-5" id="procure">
+                    <div class="procure-hero">
+                        <img src="./static/img/soln/procure-hero.jpg" alt="">
+                    </div>
+
+                    <div class="procure-wrapper">
+                        <div class="procure">
+                            <div class="procure-body">
+                                <p class="text-center text-light bg-info rounded-3 p-3">
+                                    Leave the procurement task to us where we research, negotiate, and source
+                                    from trusted suppliers.
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-12 col-md-6">
-                        <div class="mc3-2 micard">
-                            <div class="micard-img"></div>
-                            <div class="micard-body p-2">
-                                <h4>Servers & PC's</h4>
+                        
+                        <div class="procure">
+                            <div class="procure-body">
+                                <h4>Sourcing the <br/>Right Device Solution</h4>
                                 <p>
-                                    Servers and PCs plays a pivotal role in driving your organization's success, and we're excited
-                                    to be able to help in procuring the required hardwares that will elevate your operations to new 
-                                    heights of efficiency
+                                    Looking for the right technology can be time consuming. With our experience
+                                    and connections, let us do the reseach and find the suitable device that
+                                    meets your requirements.
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-12 col-md-6">
-                        <div class="mc3-3 micard">
-                            <div class="micard-img"></div>
-                            <div class="micard-body p-2">
-                                <h4>Enterprice Software Solutions</h4>
+                        
+                        <div class="procure">
+                            <div class="procure-body">
+                                <h4>Custom Solution <br/>for Performance</h4>
                                 <p>
-                                    In today's dynamic business landscape, the right software solutions can be the driving force behind 
-                                    growth, efficiency, and innovation. We understand the challenges your organization faces and are 
-                                    excited to present a compelling proposal for delivering cutting-edge enterprise software solutions 
-                                    that will reshape the way you operate, compete, and succeed.
+                                    Our custom procurement proccess starts with a detailed 
+                                    assessment of your business requirements and budget. With that we recommend
+                                    the best solution to cater for perfermance, scalability, and compatibility.
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-12 col-md-6">
-                        <div class="mc3-4 micard">
-                            <div class="micard-img"></div>
-                            <div class="micard-body p-2">
-                                <h4>Telecommunication Infrastructure & Solutions</h4>
+                        
+                        <div class="procure">
+                            <div class="procure-body">
+                                <h4>Telecommunication <br>Infrastructure</h4>
                                 <p>
-                                    At Next Town Technology, we offer a wide array of cutting-edge solutions that cater to the diverse needs 
+                                    We offer a wide array of solutions that cater to the diverse needs 
                                     of modern telecommunication. From designing and deploying robust fiber optic networks that deliver 
-                                    lightning-fast data transfer to implementing state-of-the-art radio wave communication systems for seamless 
-                                    connectivity in remote areas, our expert team ensures you stay ahead in the digital age.
+                                    radio wave communication systems in remote areas.
                                 </p>
                             </div>
+                        </div>
+
+                        <div class="procure">
+                            <img src="./static/img/soln/procure-device.jpg" alt="">
+                        </div>
+
+                        <div class="procure">
+                            <img src="./static/img/soln/procure-custom.jpg" alt="">
+                        </div>
+
+                        <div class="procure">
+                            <img src="./static/img/soln/procure-infrast.jpg" alt="">
                         </div>
                     </div>
                 </section>
-                
+                <br>
                 <!-- Enquire Form - SIDEBAR -->
                 <div class="contact-location">
                     <div class="contact-locate-wrapper">

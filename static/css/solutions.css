@@ -220,33 +220,75 @@
 }
 
 
-/*** PROCURE SERVICES ******************************************/
+/*** PROCURE SECTION ******************************************/
+#procure .procure-hero {
+    background-color: rgb(252, 252, 252);
+    display: grid;
+    justify-content: center;
 
-#procure .micard {
-    background-color: rgba(250, 135, 198, 0.5);
+    & img {
+        width: 100%;
+        max-height: 500px;
+    }
 }
 
-.mc3-1 .micard-img {
-    background-image: url("../img/soln/procurement3.png");
-    background-size: contain;
+#procure .procure-wrapper {
+    width: 95%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+
+    .procure {
+        padding: 10px;
+        border-radius: 12px;
+
+        & img {
+            width: 100%;
+            min-height: 150px;
+            max-height: 300px;
+            border-radius: 12px; 
+        }
+
+        .procure-body {
+            & h4 {
+                color: tomato;
+            }
+        }
+
+        &:nth-child(1) {
+            font-size: 1rem;
+            background-color: transparent;
+
+            grid-column: 1/-1;
+        }
+
+        &:nth-child(5) {
+            padding: 0;
+            border: 5px solid tomato;
+
+            grid-row: 2;
+        }
+
+        &:nth-child(6) {
+            padding: 0;
+            border: 5px solid tomato;
+
+            grid-row: 4;
+        }
+
+        &:nth-child(7) {
+            padding: 0;
+            border: 5px solid tomato;
+
+            grid-row: 6;
+        }
+    }
 }
 
-.mc3-2 .micard-img {
-    background-image: url("../img/soln/computer-lab.jpg");
-    background-size: contain;
-}
 
-.mc3-3 .micard-img {
-    background-image: url("../img/soln/software-soln.png");
-    background-size: contain;
-}
-
-.mc3-4 .micard-img {
-    background-image: url("../img/soln/tower.png");
-    background-size: contain;
-}
-
-/*** Enquiry Section *********************************************************/
+/*** Enquiry Section *******************************************/
 .contact-location {
     background-color: whitesmoke;
     padding: 10px;
@@ -298,8 +340,15 @@
     }
 
 
+    /*** PROCURE SECTION *****************************************/
 
-    /*** ENQUIRY SECTION **************************************/
+    #procure .procure-wrapper {
+        width: 80%;
+    }
+
+
+
+    /*** ENQUIRY SECTION ****************************************/
 
     .contact-locate-wrapper {
         width: 80%;
@@ -391,6 +440,44 @@
             }
         }
     }
+
+
+    /*** PROCURE SECTION *****************************************/
+
+    #procure .procure-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        row-gap: 5rem;
+
+        .procure {
+            display: grid;
+            align-items: center;
+            margin: 0;
+    
+            &:nth-child(5) {
+                padding: 0;
+                border: 5px solid tomato;
+    
+                grid-row: 2;
+            }
+    
+            &:nth-child(6) {
+                padding: 0;
+                border: 5px solid tomato;
+    
+                grid-row: 3;
+                grid-column: 2;
+            }
+    
+            &:nth-child(7) {
+                padding: 0;
+                border: 5px solid tomato;
+    
+                grid-row: 4;
+                grid-column: 1;
+            }
+        }
+    }
 }
 
 @media(min-width: 769px) {
@@ -447,6 +534,44 @@
                 & p span {
                     display: inline;
                 }
+            }
+        }
+    }
+
+
+    /*** PROCURE SECTION *****************************************/
+
+    #procure .procure-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+        row-gap: .8rem;
+
+        .procure {
+            display: grid;
+            align-items: start;
+            margin: 0;
+    
+            &:nth-child(5) {
+                padding: 0;
+                border: 5px solid tomato;
+    
+                grid-row: 3;
+            }
+    
+            &:nth-child(6) {
+                padding: 0;
+                border: 5px solid tomato;
+    
+                grid-row: 3;
+                grid-column: 2;
+            }
+    
+            &:nth-child(7) {
+                padding: 0;
+                border: 5px solid tomato;
+    
+                grid-row: 3;
+                grid-column: 3;
             }
         }
     }
