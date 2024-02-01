@@ -32,9 +32,34 @@
     }
 }
 
+.subhead {
+    position: relative;
+    height: 300px;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & img {
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        z-index: -1;
+    }
+
+    & h2 {
+        font-size: 1.3rem;
+        color: white;
+        text-align: center;
+    }
+}
+
 .contact {
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 40px;
 
     .contact-details {
         margin-top: 15px;
@@ -59,13 +84,14 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 80%;
+        height: 100%;
         z-index: -1;
     }
 
     .detail-cont {
         position: absolute;
         width: 100%;
+        height: 50%;
         left: 0;
         bottom: 0;
         padding: 20px;
@@ -92,7 +118,7 @@
 
     & p {
         margin: 0;
-        font-size: clamp(.8rem, 3vw, 1.2rem);
+        font-size: clamp(.8rem, 2vw, 1rem);
     }
 }
 
@@ -172,7 +198,26 @@
 
         .contact-details {
             grid-template-columns: repeat(2, 1fr);
-            gap: .8rem;
+            gap: 2rem;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .contact {
+        width: 80%;
+
+        .contact-details {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5rem;
+        }
+
+        .detail {
+            height: 350px;
+
+            .detail-cont {
+                padding: 10px 30px 10px 30px;
+            }
         }
     }
 }

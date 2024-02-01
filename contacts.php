@@ -15,6 +15,11 @@
                     <h1>Get in Touch</h1>
                 </div>
 
+                <div class="subhead">
+                    <img src="./static/img/contact/bg-subhead.jpg" alt="">
+                    <h2>"Experience the Pinnacle of Service Excellence <br>– your improvement is just a call away!"</h2>
+                </div>
+
                 <div class="contact">
                     <div class="contact-details">
 
