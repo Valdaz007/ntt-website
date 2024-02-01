@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="subhead">
-                    <img src="./static/img/contact/bg-subhead.jpg" alt="">
+                    <img src="./static/img/contact/bg-subhead.avif" alt="">
                     <h2>
                         "Experience the Pinnacle of Service Excellence<br>
                         – your improvement is just a call away!"
@@ -25,23 +25,23 @@
 
                 <div class="services-icon">
                     <div class="service">
-                        <img src="./static/img/contact/cont-internet.png" alt="">
+                        <img src="./static/img/contact/cont-internet.avif" alt="">
                         <h3>Internet<br>Services</h3>
                     </div>
                     <div class="service">
-                        <img src="./static/img/contact/cont-cloud.png" alt="">
+                        <img src="./static/img/contact/cont-cloud.avif" alt="">
                         <h3>Cloud<br>Services</h3>
                     </div>
                     <div class="service">
-                        <img src="./static/img/contact/cont-network.png" alt="">
+                        <img src="./static/img/contact/cont-network.avif" alt="">
                         <h3>Network<br>Services</h3>
                     </div>
                     <div class="service">
-                        <img src="./static/img/contact/cont-mail.png" alt="">
+                        <img src="./static/img/contact/cont-mail.avif" alt="">
                         <h3>Web<br>Services</h3>
                     </div>
                     <div class="service">
-                        <img src="./static/img/contact/cont-procure.png" alt="">
+                        <img src="./static/img/contact/cont-procure.avif" alt="">
                         <h3>Procure<br>Services</h3>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     <div class="contact-details">
 
                         <div class="border detail">
-                            <img src="./static/img/contact/office.jpg" alt="">
+                            <img src="./static/img/contact/office.avif" alt="">
 
                             <div class="detail-cont">
                                 <h3>Our Office</h3>
@@ -64,7 +64,7 @@
                         </div>
 
                         <div class="border detail">
-                            <img src="./static/img/contact/contact.jpg" alt="">
+                            <img src="./static/img/contact/contact.avif" alt="">
 
                             <div class="detail-cont">
                                 <h3>Phone / Email</h3>
