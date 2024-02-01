@@ -17,7 +17,33 @@
 
                 <div class="subhead">
                     <img src="./static/img/contact/bg-subhead.jpg" alt="">
-                    <h2>"Experience the Pinnacle of Service Excellence <br>– your improvement is just a call away!"</h2>
+                    <h2>
+                        "Experience the Pinnacle of Service Excellence<br>
+                        – your improvement is just a call away!"
+                    </h2>
+                </div>
+
+                <div class="services-icon">
+                    <div class="service">
+                        <img src="./static/img/contact/cont-internet.png" alt="">
+                        <h3>Internet<br>Services</h3>
+                    </div>
+                    <div class="service">
+                        <img src="./static/img/contact/cont-cloud.png" alt="">
+                        <h3>Cloud<br>Services</h3>
+                    </div>
+                    <div class="service">
+                        <img src="./static/img/contact/cont-network.png" alt="">
+                        <h3>Network<br>Services</h3>
+                    </div>
+                    <div class="service">
+                        <img src="./static/img/contact/cont-mail.png" alt="">
+                        <h3>Web<br>Services</h3>
+                    </div>
+                    <div class="service">
+                        <img src="./static/img/contact/cont-procure.png" alt="">
+                        <h3>Procure<br>Services</h3>
+                    </div>
                 </div>
 
                 <div class="contact">
@@ -49,11 +75,15 @@
                             </div>
                         </div>
                     </div>
-                </div>  
-                
+                </div> 
+                <br>
                 <!-- Enquire Form - SIDEBAR -->
                 <div class="contact-location">
                     <div class="contact-locate-wrapper">
+
+                        <div class="locate card">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4893.692516920343!2d147.1978237!3d-9.4694294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x69023789d632be87%3A0x951d70aadf93a0a4!2sNext%20Town%20Technology%20Ltd!5e1!3m2!1sen!2spg!4v1693281245276!5m2!1sen!2spg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                         <div class="enquiry">
                             <form action="send.php" method="post" class="enquire-form">
                                 <h4>Enquire Now</h4>
@@ -67,10 +97,6 @@
                                 <input class="btn btn-primary soln-input" type="submit" name="send">
                             </form>
                             <!-- <a id="top" type="button" class="btn btn-warning" href="#">Top</a> -->
-                        </div>
-
-                        <div class="locate card">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4893.692516920343!2d147.1978237!3d-9.4694294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x69023789d632be87%3A0x951d70aadf93a0a4!2sNext%20Town%20Technology%20Ltd!5e1!3m2!1sen!2spg!4v1693281245276!5m2!1sen!2spg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
