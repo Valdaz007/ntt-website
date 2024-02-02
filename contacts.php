@@ -77,7 +77,7 @@
                     </div>
                 </div> 
                 <br>
-                <!-- Enquire Form - SIDEBAR -->
+                <!-- Enquire Form -->
                 <div class="contact-location">
                     <div class="contact-locate-wrapper">
 
