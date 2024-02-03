@@ -24,7 +24,7 @@
                     <?php require_once "templates/brod-int.php"?>
                 </div>
 
-                <!-- Side Bar Enquire Form Section -->
+                <!-- Enquire Form Section -->
                 <div class="contact-location">
                     <div class="contact-locate-wrapper">
                         <div class="enquiry">
