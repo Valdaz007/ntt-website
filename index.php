@@ -18,7 +18,7 @@
                         <h2 class="services-heading">Our Services</h2>
                     </div>
             
-                    <div class="services-cont">
+                    <div class="services-cont mt-5">
                         <div class="service-card">
                             <img src="./static/img/service-img/prof-image3.1 - 300x300.jpg" class="card-img-top" alt="Rack Installation">
                             <div class="service-cont">
@@ -57,14 +57,15 @@
 
                 <!-- Brief Info Section -->
                 <section class="bg-brinfo">
+                    <div class="services-header-cont mb-3">
+                        <h2 class="services-heading">Who We Are</h2>
+                    </div>
                     <div class="br-info">
                         <div class="info-img-wrapper">
                             <div class="img-info"></div>
                         </div>
-
                         <div class="content-info-wrapper">
                             <div class="content-info">
-                                <h2 class="info-header">Who We Are</h2>
                                 <p class="info-para">
                                     We’re a young talented group of Entrepreneurs and Engineers with 
                                     groundbreaking idea that we hope will contribute towards a better tomorrow. 
