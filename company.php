@@ -37,7 +37,7 @@
                     </div>
                 </div>
 
-                <div class="pnm">
+                <div class="pnm mb-5">
                     <div class="pnm-content">
                         <div class="pnm-img">
                             <img src="./static/img/comp/purpose.png" alt="">
@@ -74,58 +74,56 @@
                 </div>
 
                 <!-- Values Section -->
-                <div class="values-wrapper">
-                    <h2>Our Values</h2>
+                <div class="values-wrapper mb-5">
+                    <div class="values-header mb-3">
+                        <h2>Our Values</h2>
+                    </div>
 
-                    <div class="row g-2 values">
-                        <div class="col-6 col-sm-6 col-lg-3">
-                            <div class="value">
-                                <h5>WE LEAD</h5>
-                                <hr>
-                                <p>
-                                    We lead in providing the best solutions possible in line with today’s 
-                                    technology trend for a Better PNG.
-                                </p>
-                            </div>
+                    <div class="values">
+                        <div class="value">
+                            <h5>WE LEAD</h5>
+                            <hr>
+                            <p>
+                                We lead in providing the best solutions possible in line with today’s 
+                                technology trend for a Better PNG.
+                            </p>
                         </div>
 
-                        <div class="col-6 col-sm-6 col-lg-3">
-                            <div class="value">
-                                <h5>WE CARE</h5>
-                                <hr>
-                                <p>
-                                    We value relationship(s) and every little thing counts to provide the 
-                                    best we can.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-6 col-sm-6 col-lg-3">
-                            <div class="value">
-                                <h5>WE BELIEVE</h5>
-                                <hr>
-                                <p>
-                                    We believe in our capacity as a Telco and IT company to provide the best 
-                                    solution possible for a better outcome for all.
-                                </p>
-                            </div>
+                        <div class="value">
+                            <h5>WE CARE</h5>
+                            <hr>
+                            <p>
+                                We value relationship(s) and every little thing counts to provide the 
+                                best we can.
+                            </p>
                         </div>
 
-                        <div class="col-6 col-sm-6 col-lg-3">
-                            <div class="value">
-                                <h5>WE TRUST</h5>
-                                <hr>
-                                <p>
-                                    We accept and demand an honest working culture and we provide the same to 
-                                    our client(s).
-                                </p>
-                            </div>
+                        <div class="value">
+                            <h5>WE BELIEVE</h5>
+                            <hr>
+                            <p>
+                                We believe in our capacity as a Telco and IT company to provide the best 
+                                solution possible for a better outcome for all.
+                            </p>
+                        </div>
+
+                        <div class="value">
+                            <h5>WE TRUST</h5>
+                            <hr>
+                            <p>
+                                We accept and demand an honest working culture and we provide the same to 
+                                our client(s).
+                            </p>
+                        </div>
+
+                        <div class="value">
+                            <img src="./static/img/comp/wwdi-vsat-installation.avif" alt="">
                         </div>
                     </div>
                 </div>
-                <br><br>
             
                 <!-- Section Four of the Company Page -->   
-                <div class = "wwdi-wrapper">
+                <div class="wwdi-wrapper">
                     <div class="wwdi">
                         <div class="cir4"></div>
                         <div class="cir1"></div>
