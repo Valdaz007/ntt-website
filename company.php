@@ -54,7 +54,7 @@
                     <div class="pnm-content">
                         <img src="./static/img/comp/bg-tech.jpg" alt="">
                         <p>
-                            We Empower Individuals & Organizations and working
+                            We Empower Individuals & Organizations to work
                             Together towards a Shared Future. 
                         </p>
                     </div>
