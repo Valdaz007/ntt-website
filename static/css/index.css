@@ -9,75 +9,64 @@
 
 .services-cont {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: .8rem;
     
     width: 95%;
     margin: 0 auto;
     margin-top: 20px;
-
-    .card-title {
-        font-size: clamp(1rem, 4vw, 1.2rem);
-        text-align: center;
-    }
 }
 
-.flip-card {
-    height: clamp(150px, 30vw, 250px);
-    /* Flip Style */
-    background-color: transparent;
-    perspective: 1000px;
-}
-
-.service-card:hover .inner-card {
-    transform: rotateY(180deg);
-}
-
-.inner-card {
+.service-card {
+    height: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    overflow: hidden;
     position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform .8s ease-in-out;
-    transform-style: preserve-3d;
-}
+    color: burlywood;
+    border: 5px solid tomato;
 
-.inner-card {
-    .card-front, .card-back {
+    & img {
         position: absolute;
-        height: 100%;
+        top: 0;
+        left: 0;
         width: 100%;
-        backface-visibility: hidden;
-        overflow: hidden;
-        border-radius: 20px;
+        height: 100%;
+        z-index: -1;
     }
 
-    .card-front {
-        box-shadow: 2px 2px 4px 2px #323;
-    
-        & img {
-            border-radius: 0;
+    .service-cont {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        left: 0;
+        bottom: 0;
+        padding: 20px;
+
+
+        &::after {
+            position: absolute;
+            top:0;
+            left: 0;
+            content: "";
+            width: 100%;
             height: 100%;
+            background-color: rgba(0,0,0,.5);
+            backdrop-filter: blur(2px);
+            z-index: -1;
         }
     }
-
-    .card-back {
-        background-color: rgba(51, 51, 150, 0.75);
-        color: white;
-        transform: rotateY(180deg);
     
+    & h5 {
         display: flex;
         align-items: center;
-        justify-content: center;
-    
-        outline: 5px solid var(--nttorange);
-        box-shadow: 0px 0px 15px 2px var(--nttorange) inset;
-        
-        padding: 10px;
-    
-        .card-text {
-            font-size: clamp(.8rem, 2.5vw, 1.2rem);
-            text-align: center;
-        }
+        color: tomato;
+    }
+
+    & p {
+        margin: 0;
+        color: white;
+        font-size: clamp(.9rem, 3vw, 1rem);
     }
 }
 
@@ -244,8 +233,12 @@
 
     .services-cont {
         padding: 0;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         width: 80%;
+
+        .service-cont {
+            padding: 10px;
+        }
     }
 
     .solution-services {
@@ -270,16 +263,20 @@
 @media(min-width: 768px) {
     .services-cont {
         grid-template-columns: repeat(3, 1fr);
+
+        .service-cont {
+            height: 55%;
+        }
     }
 }
 
 @media(min-width: 1024px) {
     .services-cont {
-        gap: 5rem;
-    }
+        gap: 3rem;
 
-    .card-back {
-        padding: 30px;
+        .service-cont {
+            padding: 15px;
+        }
     }
 
     .br-info {
