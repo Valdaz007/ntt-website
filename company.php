@@ -39,7 +39,9 @@
 
                 <div class="pnm">
                     <div class="pnm-content">
-                        <div class="pnm-img"></div>
+                        <div class="pnm-img">
+                            <img src="./static/img/comp/purpose.png" alt="">
+                        </div>
                         <div class="pnm-body">
                             <h4>Purpose</h4>
                             <p>
@@ -50,7 +52,17 @@
                     </div>
 
                     <div class="pnm-content">
-                        <div class="pnm-img"></div>
+                        <img src="./static/img/comp/bg-tech.jpg" alt="">
+                        <p>
+                            We Empower Individuals & Organizations and working
+                            Together towards a Shared Future. 
+                        </p>
+                    </div>
+
+                    <div class="pnm-content">
+                        <div class="pnm-img">
+                            <img src="./static/img/comp/mission.png" alt="">
+                        </div>
                         <div class="pnm-body">
                             <h4>Vision</h4>
                             <p>

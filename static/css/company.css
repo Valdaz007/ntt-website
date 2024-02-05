@@ -98,6 +98,8 @@ body .content{
 /*** Purpose & Mission *******************************************/
 .pnm {
     display: grid;
+    width: 95%;
+    margin: 0 auto;
     min-height: 200px;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -113,6 +115,23 @@ body .content{
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 0 0 2px black;
+    
+    .pnm-img {
+        position: relative;
+
+        & img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            height: 80%;
+        }
+    }
+
+    &:nth-child(2) {
+        display: none;
+    }
 }
 
 .pnm-img {
@@ -120,16 +139,6 @@ body .content{
     background-color: rgb(255, 142, 101);
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.pnm-content:nth-child(1) .pnm-img {
-    background-image: url('./../img/comp/purpose-icon.png');
-    background-size: contain;
-}
-
-.pnm-content:nth-child(2) .pnm-img {
-    background-image: url('./../img/comp/mission-icon.png');
-    background-size: contain;
 }
 
 .pnm-body {
@@ -338,6 +347,12 @@ body .content{
         padding: 20px;
     }
 
+
+    /*** PNM SECT ***********************************************/
+    .pnm {
+        width: 80%;
+    }
+
     .pnm-content {
         margin: 10px;
     }
@@ -358,8 +373,41 @@ body .content{
         flex-direction: row;
     }
 
+
+    /*** PNM SECT ***********************************************/
+
+    .pnm {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .pnm-content {
-        margin: 30px;
+
+        .pnm-img {
+            & img {
+                width: 50%;
+            }
+        }
+
+        &:nth-child(2) {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            padding: 20px;
+
+            color: white;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 600;
+
+            & img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+        }
     }
 
     .wwdi-wrapper {
