@@ -15,7 +15,7 @@
             <section class="content">
 
                 <!-- Section Three of the Company Page -->
-                <div class="wahfy-wrapper">
+                <div class="wahfy-wrapper mb-5">
                     <div class="wahfy">
                         <div class="wahfy-img"></div>
                         <div class="wahfy-content">
@@ -26,14 +26,16 @@
                                 seeing a great need and challenge in the Technology Space in the country. 
                                 With the knowledge, skills and experience we have acquired, we believe we can 
                                 contribute towards bridging the ICT gap of Papua New Guinea with the rest of the world.
-                                <br><br>
+                            </p>
+                            
+                            <p>
                                 We wish to bring about change in the Telecommunication Industry in PNG enabling 
                                 everyday Papua New Guineans the opportunity to bring about new ideas and visions 
                                 for our future.
                             </p>
                         </div>
                     </div>
-                </div><br>
+                </div>
 
                 <div class="pnm">
                     <div class="pnm-content">
@@ -52,7 +54,8 @@
                         <div class="pnm-body">
                             <h4>Vision</h4>
                             <p>
-                                To be a Lead Player, Providing Telco and ICT Solution to the People of Papua New Guinea.
+                                To be a Lead Player, Providing Telco and ICT Solution to the People of 
+                                Papua New Guinea.
                             </P>
                         </div>
                     </div>
